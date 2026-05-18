@@ -1832,7 +1832,12 @@ SN_CasinoHeist:add_button("Kill Cooldown", function()
 	gui.show_message("Diamond Casino Heist", "Cooldown should've been killed")
 end)
 SN_CasinoHeist:add_text("After clicking the Kill Cooldown button, go offline and then come back online")
-
+SN_CasinoHeist:add_button("Skip Setup", function()
+    stats.set_int(MPX() .. "H3OPT_BITSET0", -1)
+    stats.set_int(MPX() .. "H3OPT_BITSET1", -1)
+    stats.set_int(MPX() .. "H3OPT_COMPLETEDPOSIX", -1)
+    gui.show_message("Diamond Casino Heist", "Setups should've been skipped. Don't forget to change the session.")
+end)
 
 -- Cayo Heist --
 local function CutsPresetter(global_start, global_finish, cut)
