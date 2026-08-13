@@ -10,93 +10,97 @@ XMg = FMg + 1 -- xp multiplier global ("XP_MULTIPLIER")
 CSg1    = 1575042 						-- change session (type) 1 					// Guide:   NETWORK::UGC_SET_USING_OFFLINE_CONTENT(false);
 CSg2    = 1574589 						-- change session (switch) 2 				// Guide:   MP_POST_MATCH_TRANSITION_SCENE
 CSg3    = 1574589 + 2 					-- change session (quit) 3 					// Guide:   MP_POST_MATCH_TRANSITION_SCENE
--- Auto Shop variables
-ASIFl1 = 55789 + 1 -- auto shop instant finish local 1 
-ASIFl2 = 55789 + 1776 + 1 -- auto shop finish local 2 
-ASRBl = 406 -- auto shop reload board local 
 
+-- Auto Shop variables
+ASIFl1 = 56070 + 1 -- auto shop instant finish local 1 
+ASIFl2 = 56070 + 1776 + 1 -- auto shop finish local 2 
+ASRBl = 416 -- auto shop reload board local 
 
 -- Doomsday Heist Variables
-DDSHl = 1296 + 135 -- doomsday doomsday scenario hack local
-DCg1 = 1967983 + 812 + 50 + 1 -- doomsday player 1 cut global
-DCg2 = 1967983 + 812 + 50 + 2 -- doomsday player 2 cut global
-DCg3 = 1967983 + 812 + 50 + 3 -- doomsday player 3 cut global
-DCg4 = 1967983 + 812 + 50 + 4 -- doomsday player 4 cut global
-GCg = 2685249 + 6615 -- global cut global (value2 = value2 * (num / 100f);)
-DDIF1 = 19791 -- doomsday instant finish local 1
-DDIF2 = 19791 + 1740 + 1 -- doomsday instant finish local 2
-DDIF3 = 28412 + 1 -- doomsday instant finish local 3
-DDIF4 = 31668 + 1 + 68 -- doomsday instant finish local 4
-DDIF5 = 31668 + 97 -- doomsday instant finish local 5
+DDSHl = 1312 + 135 -- doomsday doomsday scenario hack local
+DCg1 = 1968511 + 812 + 50 + 1 -- doomsday player 1 cut global
+DCg2 = 1968511 + 812 + 50 + 2 -- doomsday player 2 cut global
+DCg3 = 1968511 + 812 + 50 + 3 -- doomsday player 3 cut global
+DCg4 = 1968511 + 812 + 50 + 4 -- doomsday player 4 cut global
+GCg = 2686119 + 6791 -- global cut global (value2 = value2 * (num / 100f);)
+DDIF1 = 19808 -- doomsday instant finish local 1
+DDIF2 = 19808 + 1740 + 1 -- doomsday instant finish local 2
+DDIF3 = 28722 + 1 -- doomsday instant finish local 3
+DDIF4 = 31981 + 1 + 68 -- doomsday instant finish local 4
+DDIF5 = 31981 + 97 -- doomsday instant finish local 5
+DDLIVESL = 26234 + 1325 + 1 -- Doomsday team lives local
 
 -- Cayo Perico Heist Variables
-CPRSl = 1568 -- cayo perico reload screen local 
-CPCg1 = 1978756 + 831 + 56 + 1 -- cayo perico player 1 cut global
-CPCg2 = 1978756 + 831 + 56 + 2 -- cayo perico player 2 cut global
-CPCg3 = 1978756 + 831 + 56 + 3 -- cayo perico player 3 cut global
-CPCg4 = 1978756 + 831 + 56 + 4 -- cayo perico player 4 cut global
-CPBg = FMg + 29299
-CPFHl = 26084  -- cayo perico fingerprint hack local 
-CPPCCl = 32187 + 3 -- cayo perico plasma cutter cut local ("DLC_H4_anims_glass_cutter_Sounds") 
-CPSTCl = 30947 -- cayo perico drainage pipe cut local
-CPXf1 = 55789 -- cayo perico instant finish local 1
-CPXf2 = 55789 + 1776 + 1 -- cayo perico instant finish local 2
+CPRSl = 1578 -- cayo perico reload screen local 
+CPCg1 = 1979291 + 831 + 56 + 1 -- cayo perico player 1 cut global
+CPCg2 = 1979291 + 831 + 56 + 2 -- cayo perico player 2 cut global
+CPCg3 = 1979291 + 831 + 56 + 3 -- cayo perico player 3 cut global
+CPCg4 = 1979291 + 831 + 56 + 4 -- cayo perico player 4 cut global
+CPBg = FMg + 29300
+CPFHl = 26217  -- cayo perico fingerprint hack local 
+CPPCCl = 32349 + 3 -- cayo perico plasma cutter cut local 
+CPSTCl = 31109 -- cayo perico drainage pipe cut local
+CPXf1 = 56070 -- cayo perico instant finish local 1
+CPXf2 = 56070 + 1776 + 1 -- cayo perico instant finish local 2
+CPLIVESL = 62851 + 1109 + 1 -- Cayo Perico team lives local
 
 -- Apartment Heist Variables
-ACg1 = 1935536 + 1 + 1 -- global apartment player 1 cut global
-ACg2 = 1935536 + 1 + 2 -- global apartment player 2 cut global
-ACg3 = 1935536 + 1 + 3 -- global apartment player 3 cut global
-ACg4 = 1935536 + 1 + 4 -- global apartment player 4 cut global
-ACg5 = 1937504 + 3008 + 1 -- local apartment player 1 cut global
-AUAJg1 = FMg + 9184 -- apartment unlock all jobs global 1 ("ROOT_ID_HASH_THE_FLECCA_JOB")
-AUAJg2 = FMg + 9189 -- apartment unlock all jobs global 2 ("ROOT_ID_HASH_THE_PRISON_BREAK")
-AUAJg3 = FMg + 9196 -- apartment unlock all jobs global 3 ("ROOT_ID_HASH_THE_HUMANE_LABS_RAID")
-AUAJg4 = FMg + 9202 -- apartment unlock all jobs global 4 ("ROOT_ID_HASH_SERIES_A_FUNDING")
-AUAJg5 = FMg + 9208 -- apartment unlock all jobs global 5 ("ROOT_ID_HASH_THE_PACIFIC_STANDARD_JOB")
-AIFl1 = 19791 -- apartment instant finish local 1
-AIFl2 = 19791 + 1062 -- apartment instant finish local 2
-AIFl3 = 19791 + 1740 + 1 -- apartment instant finish local 3 
-AIFl4 = 19791 + 2686 -- apartment instant finish local 4 
-AIFl5 = 28412 + 1 -- apartment instant finish local 5
-AIFl6 = 31668 + 1 + 68 -- apartment instant finish local 6
-AFHl = 11821 + 24 -- apartment fleeca hack local 
-AFDl = 10109 + 11 -- apartment fleeca drill local
-AFPl = 9815 -- apartment pacific hack local
-AHSo = 19791 + 2  -- Apartment heist skip checkpoint
+ACg1 = 1935929 + 1 + 1 -- global apartment player 1 cut global
+ACg2 = 1935929 + 1 + 2 -- global apartment player 2 cut global
+ACg3 = 1935929 + 1 + 3 -- global apartment player 3 cut global
+ACg4 = 1935929 + 1 + 4 -- global apartment player 4 cut global
+ACg5 = 1937897 + 3008 + 1 -- local apartment player 1 cut global
+AUAJg1 = FMg + 9184 -- apartment unlock all jobs global 1
+AUAJg2 = FMg + 9189 -- apartment unlock all jobs global 2
+AUAJg3 = FMg + 9196 -- apartment unlock all jobs global 3
+AUAJg4 = FMg + 9202 -- apartment unlock all jobs global 4
+AUAJg5 = FMg + 9208 -- apartment unlock all jobs global 5
+AIFl1 = 19808 -- apartment instant finish local 1
+AIFl2 = 19808 + 1062 -- apartment instant finish local 2
+AIFl3 = 19808 + 1740 + 1 -- apartment instant finish local 3 
+AIFl4 = 19808 + 2686 -- apartment instant finish local 4 
+AIFl5 = 28722 + 1 -- apartment instant finish local 5
+AIFl6 = 31981 + 1 + 68 -- apartment instant finish local 6
+AFHl = 11837 + 24 -- apartment fleeca hack local 
+AFDl = 10125 + 11 -- apartment fleeca drill local
+AFPl = 9831 -- apartment pacific hack local
+AHSo = 19808 + 2  -- Apartment heist skip checkpoint
 AHRg = 1935571
-ACDg = 1877158
-AHDg = 4718592 + 3538
+ACDg = 2686119 -- apartment cooldown global
+AHDg = 4718592 + 3771
+AHLIVES = 26234 + 1325 + 1 -- Apartment Heist team lives local
 
 -- Diamond Casino Heist Variables
-DCRBl = 210 -- diamond casino reload board local
-DCCg1 = 1971952 + 1497 + 736 + 92 + 1 -- diamond casino player 1 cut global
-DCCg2 = 1971952 + 1497 + 736 + 92 + 2 -- diamond casino player 2 cut global
-DCCg3 = 1971952 + 1497 + 736 + 92 + 3 -- diamond casino player 3 cut global
-DCCg4 = 1971952 + 1497 + 736 + 92 + 4 -- diamond casino player 4 cut global
-DCFHl = 53132      -- diamond casino fingerprint hack local
-DCKHl = 54198      -- diamond casino keypad hack local
-DCDVDl1 = 10149 + 7 -- diamond casino drill vault door local 1
-DCDVDl2 = 10149 + 37 -- diamond casino drill vault door local 2
-DCXf1 = 19791 -- diamond casino instant finish local 1
-DCXf2 = 19791 + 1062 -- diamond casino instant finish local 2
-DCXf3 = 19791 + 1740 + 1 -- diamond casino instant finish local 3
-DCXf4 = 19791 + 2686 -- diamond casino instant finish local 4
-DCXf5 = 28412 + 1 -- diamond casino instant finish local 5
-DCXf6 = 31668 + 1 + 68 -- diamond casino instant finish local 6
-DCAg = 10295
-DCAs = 10295 + 14
+DCRBl = 217 -- diamond casino reload board local
+DCCg1 = 1972483 + 1497 + 736 + 92 + 1 -- diamond casino player 1 cut global
+DCCg2 = 1972483 + 1497 + 736 + 92 + 2 -- diamond casino player 2 cut global
+DCCg3 = 1972483 + 1497 + 736 + 92 + 3 -- diamond casino player 3 cut global
+DCCg4 = 1972483 + 1497 + 736 + 92 + 4 -- diamond casino player 4 cut global
+DCFHl = 54118      -- diamond casino fingerprint hack local
+DCKHl = 55188      -- diamond casino keypad hack local
+DCDVDl1 = 10125 + 7 -- diamond casino drill vault door local 1
+DCDVDl2 = 10125 + 37 -- diamond casino drill vault door local 2
+DCXf1 = 19808 -- diamond casino instant finish local 1
+DCXf2 = 19808 + 1062 -- diamond casino instant finish local 2
+DCXf3 = 19808 + 1740 + 1 -- diamond casino instant finish local 3
+DCXf4 = 19808 + 2686 -- diamond casino instant finish local 4
+DCXf5 = 28722 + 1 -- diamond casino instant finish local 5
+DCXf6 = 31981 + 1 + 68 -- diamond casino instant finish local 6
+DCAg = 10311 -- casino autograbber local 1
+DCAs = 10311 + 14 -- casino autograbber local 2
+DCLIVESL = 26234 + 1325 + 1 -- diamond casino team lives local
 
--- Heists
-HGLs1 = 4718592 + 3539
-HGLs2 = 4718592 + 3540
-HGLs3 = 4718592 + 3542 + 1
-HGLs4 = 4718592 + 185951 + 1
-HGGs1 = 20054 + 34
-HGGs2 = 20054 + 15
+-- Heists Meta
+HGLs1 = 4718592 + 3769
+HGLs2 = 4718592 + 3772
+HGLs3 = 4718592 + 3773
+HGLs4 = 4718592 + 190163 + 1
+HGGs1 = 20194 + 34
+HGGs2 = 20194 + 15
 
 -- Agency Variables
-AGFl1 = 55789 + 1
-AGFl2 = 55789 + 1776 + 1
+AGFl1 = 56070 + 1
+AGFl2 = 56070 + 1776 + 1
 
 -- Bunker Variables
 GSIg = 1673807 + 1 + 5 		-- get supplies instantly global ("OR_PSUP_DEL)
@@ -104,22 +108,24 @@ BCISl = 1266 + 774 	-- bunker crash instant sell local
 BCFp1 = 2708790 + 1 + 5 * 2 -- bunker fast production
 BCFp2 = 2708790 + 1 + 5 * 2 + 1 -- bunker fast production 
 
-
 -- Hangar Variables
 HCVISl1 = 1989 + 1078 -- hangar cargo vip instant sell local 1
 HCVISl2 = 1989 + 1035 -- hangar cargo vip instant sell local 2
 
 -- Nightclub Variables
-NLSCg = FMg + 23769 -- night loop safe capacity global ("NIGHTCLUBMAXSAFEVALUE")
-NLISg = FMg + 23746 -- night loop income start global ("NIGHTCLUBINCOMEUPTOPOP5")
-NLIEg = FMg + 23765 -- night loop income end global ("NIGHTCLUBINCOMEUPTOPOP100")
-NLCl = 206 + 32 + 19 + 1 -- night loop collect local
-NLTl = 206 + 32 + 2 -- night safe type local
-NCVg = 1845250
+NLSCg = FMg + 23769 -- night loop safe capacity global
+NLISg = FMg + 23746 -- night loop income start global
+NLIEg = FMg + 23765 -- night loop income end global
+NLCl = 213 + 32 + 19 + 1 -- night loop collect local
+NLTl = 213 + 32 + 2 -- night safe type local
+NCVg = 1845298
 
 -- Special Cargo Variables
-SCVMTl = 567 + 7 		-- special cargo vip mission type local
-SCVISl = 567 + 1 		-- special cargo vip instant sell local
+SCVMTl = 574 + 7 		-- special cargo vip mission type local
+SCVISl = 574 + 1 		-- special cargo vip instant sell local
+CEO1 = FMg + 15821 --("EXEC_CONTRABAND_SALE_VALUE_THRESHOLD1")
+CEO2 = FMg + 15588 --("EXEC_BUY_COOLDOWN")
+CEO3 = FMg + 15589 --("EXEC_SELL_COOLDOWN")
 
 -- MC Business Variables
 MCPwv = FMg + 17412  
@@ -130,19 +136,72 @@ MCPfakeV = FMg + 17414
 MCPacidV = FMg + 17413
 
 -- Collectibles Variables
-CUg = 2709274 -- collectibles unlocker global ("cellphone_badger")
+CUg = 2709274 -- collectibles unlocker global
 SJo = 216 -- signal jammers offset
 
 -- Salvage Yard Variables
-SYRl1 = 535
+SYRl1 = 545
 
---GUN VAN VARIABLES
-GVADg = FMg + 33391
-GVWDg = FMg + 33372
-GVTDg = FMg + 33383
+-- GUN VAN VARIABLES
+GVADg = FMg + 33392
+GVWDg = FMg + 33373
+GVTDg = FMg + 33384
 
---Casino
-CRS = 1372
+-- Casino
+CRS = 1379
+CCBL0 = FMg + 26623 -- Casino Chips Buy Limit
+CCBL1 = FMg + 26624 -- Casino Chips Buy Limit
+
+-- Cayo Extra
+PSV = FMg + 29552 -- Panther Statue
+PDIAMOND = FMg + 29550 -- Pink Diamond
+BB = FMg + 29549 -- Bearer Bonds
+RN = FMg + 29548 -- Ruby Necklace
+TEQUILA = FMg + 29547 -- Tequila
+BAS1 = FMg + 29300 -- Bag Size
+
+-- Kortz Center Heist Variables
+KCBRL = 597 -- kortz center reload board local
+KCDCL = 1386 -- Data crack local
+KCFHL = 26464 -- Fingerprint hack local
+KCAC_BASE = 32416 + 1 -- Access code base
+KCLGL = 70416 -- Lasers local
+KCVLL = 27512 -- Vault door local
+KCCGL_BASE = 32453 + 1 -- Cut glass base
+KCCGL_OFFSET = 3 -- Cut glass offset
+KCPT_STATE = 28953 + 11 -- Primary target state
+KCST_STATE = 28953 + 11 -- Secondary target state
+KCBGL = FMg + 37438 -- Bag size global
+KCWMG = FMg + 38199 -- Weekly multiplier global
+KCCDG = FMg + 38102 -- Cooldown normal global
+KCCD2G = FMg + 38103 -- Cooldown hard mode global
+KCLDG = 1935234 -- Lasers disable global
+KCSECONDARY_BASE = 4980736 + 1 + 29174 -- Secondary targets base
+KCPAYOUT_BASE = FMg + 37405 -- Primary target payout base
+KCLIVESL = 63515 + 1109 + 1 -- Team lives local
+KCIf1 = 56716 + 1 -- kortz center instant finish local 1
+KCIf2 = 56716 + 1776 + 1 -- kortz center instant finish local 2
+
+-- Misc
+SNOW = FMg + 4413
+halloweatherAddress = FMg + 32246
+
+-- Globale CutsPresetter Funktion (wird von mehreren Heists verwendet)
+local function CutsPresetter(global_start, global_finish, cut)
+    globals.set_int(GCg, cut)
+    for i = global_start, global_finish do
+        globals.set_int(i, cut)
+    end
+end
+
+-- getRP Funktion für Crew Rank
+local function getRP(level)
+    if level < #rp then
+        return rp[level]
+    else
+        return math.floor(25 * (level ^ 2) + 23575 * level - 1023150)
+    end
+end
 
 local function SkipCutscene()
     script.run_in_fiber(function(script)
@@ -571,528 +630,27 @@ end)
 
 local SN_Reports = SN_Manager:add_tab("Reports Menu ")
 SN_Reports:add_imgui(function()
-	ImGui.Text("Griefing: " .. stats.get_int("MPPLY_GRIEFING"))
-	ImGui.Text("Exploiting: " .. stats.get_int("MPPLY_EXPLOITS"))
-	ImGui.Text("Abusing Bugs: " .. stats.get_int("MPPLY_GAME_EXPLOITS"))
-	ImGui.Text("Annoying People In Text: " .. stats.get_int("MPPLY_TC_ANNOYINGME"))
-	ImGui.Text("Hate Speech In Voice: " .. stats.get_int("MPPLY_VC_HATE"))
-	ImGui.Text("Offensive Language: " .. stats.get_int("MPPLY_OFFENSIVE_LANGUAGE"))
-	ImGui.Text("Offensive Tagplate: " .. stats.get_int("MPPLY_OFFENSIVE_TAGPLATE"))
-	ImGui.Text("Offensive Content: " .. stats.get_int("MPPLY_OFFENSIVE_UGC"))
-	ImGui.Text("Bad Crew Name: " .. stats.get_int("MPPLY_BAD_CREW_NAME"))
-	ImGui.Text("Bad Crew Motto: " .. stats.get_int("MPPLY_BAD_CREW_MOTTO"))
-	ImGui.Text("Bad Crew Status: " .. stats.get_int("MPPLY_BAD_CREW_STATUS"))
-	ImGui.Text("Bad Crew Emblem: " .. stats.get_int("MPPLY_BAD_CREW_EMBLEM"))
-	ImGui.Separator()
-	ImGui.Text("Now onto your commends:")
-	ImGui.Separator()
-	ImGui.Text("Friendly: " .. stats.get_int("MPPLY_FRIENDLY"))
-	ImGui.Text("Helpful: " .. stats.get_int("MPPLY_HELPFUL"))
+    ImGui.Text("Griefing: " .. stats.get_int("MPPLY_GRIEFING"))
+    ImGui.Text("Exploiting: " .. stats.get_int("MPPLY_EXPLOITS"))
+    ImGui.Text("Abusing Bugs: " .. stats.get_int("MPPLY_GAME_EXPLOITS"))
+    ImGui.Text("Annoying People In Text: " .. stats.get_int("MPPLY_TC_ANNOYINGME"))
+    ImGui.Text("Hate Speech In Voice: " .. stats.get_int("MPPLY_VC_HATE"))
+    ImGui.Text("Offensive Language: " .. stats.get_int("MPPLY_OFFENSIVE_LANGUAGE"))
+    ImGui.Text("Offensive Tagplate: " .. stats.get_int("MPPLY_OFFENSIVE_TAGPLATE"))
+    ImGui.Text("Offensive Content: " .. stats.get_int("MPPLY_OFFENSIVE_UGC"))
+    ImGui.Text("Bad Crew Name: " .. stats.get_int("MPPLY_BAD_CREW_NAME"))
+    ImGui.Text("Bad Crew Motto: " .. stats.get_int("MPPLY_BAD_CREW_MOTTO"))
+    ImGui.Text("Bad Crew Status: " .. stats.get_int("MPPLY_BAD_CREW_STATUS"))
+    ImGui.Text("Bad Crew Emblem: " .. stats.get_int("MPPLY_BAD_CREW_EMBLEM"))
+    ImGui.Separator()
+    ImGui.Text("Now onto your commends:")
+    ImGui.Separator()
+    ImGui.Text("Friendly: " .. stats.get_int("MPPLY_FRIENDLY"))
+    ImGui.Text("Helpful: " .. stats.get_int("MPPLY_HELPFUL"))
 end)
 
 -- Heist Editor tab
 SN_Heist_Editor = Silent:add_tab("Heist Editor ")
-
--- Agency tab
-local AgencyContracts = {
-    {name = "None", index = 3},
-    {name = "Nightclub", index = 4},
-    {name = "Marina", index = 12},
-    {name = "Nightlife Leak", index = 28},
-    {name = "Country Club", index = 60},
-    {name = "Guest List", index = 123},
-    {name = "High Society Leak", index = 254},
-    {name = "Davis", index = 508},
-    {name = "Ballas", index = 1020},
-    {name = "South Central Leak", index = 2044},
-    {name = "Studio Time", index = 2045},
-    {name = "Don't Fuck With Dre", index = 4095}
-}
-
-local contractNames = {}
-for i, contract in ipairs(AgencyContracts) do
-    table.insert(contractNames, contract.name)
-end
-local sContract = 0
-local SN_Agency = SN_Heist_Editor:add_tab("Agency ")
-SN_Agency:add_text("Money")
-local agencySafe = SN_Agency:add_checkbox("Agency Safe Loop")
-script.register_looped("agencyloop", function(script)
-    script:yield()
-    if agencySafe:is_enabled() == true then
-        gui.show_message("Business Manager", "Supplying Agency Safe with money")
-        STATS.STAT_SET_INT(joaat(MPX() .. "FIXER_COUNT"), 500, true)
-        STATS.STAT_SET_INT(joaat(MPX() .. "FIXER_PASSIVE_PAY_TIME_LEFT"), -1, true)
-        script:sleep(500)
-    end
-end)
-SN_Agency:add_separator()
-SN_Agency:add_imgui(function()
-    ImGui.Text("Contract:")
-    ImGui.SetNextItemWidth(200)
-    local nSelected, clicked = ImGui.Combo("##AgencyContract", sContract, contractNames, #contractNames)
-    if clicked then
-        sContract = nSelected
-        local contractD = AgencyContracts[sContract + 1]
-        local contractId = contractD.index
-        
-        stats.set_int(MPX() .. "FIXER_STORY_BS", contractId)
-        if contractId < 18 then
-            stats.set_int(MPX() .. "FIXER_STORY_STRAND", 0)
-        elseif contractId < 128 then
-            stats.set_int(MPX() .. "FIXER_STORY_STRAND", 1)
-        elseif contractId < 2044 then
-            stats.set_int(MPX() .. "FIXER_STORY_STRAND", 2)
-        else
-            stats.set_int(MPX() .. "FIXER_STORY_STRAND", -1)
-        end
-    end
-end)
-
-SN_Agency:add_button("Complete Preps", function()
-    stats.set_int(MPX() .. "FIXER_GENERAL_BS", -1)
-    stats.set_int(MPX() .. "FIXER_COMPLETED_BS", -1)
-    stats.set_int(MPX() .. "FIXER_STORY_COOLDOWN", -1)
-	gui.show_message("Agency", "Preps should've been completed")
-end)
-SN_Agency:add_separator()
-SN_Agency:add_text("Payouts:")
-local agencyPayoutValue = 0
-SN_Agency:add_imgui(function()
-    agencyPayoutValue, _ = ImGui.InputInt("##AgencyPayout", agencyPayoutValue)
-end)
-SN_Agency:add_button("Max", function()
-    agencyPayoutValue = 2500000
-    gui.show_message("Agency", "Payout should've been maximized. Don't forget to apply")
-end)
-SN_Agency:add_button("Apply Payout", function()
-    local payout = agencyPayoutValue
-    tunables.set_int("FIXER_FINALE_LEADER_CASH_REWARD", payout)
-    gui.show_message("Agency", "Payout should've been applied")
-end)
-SN_Agency:add_text("Use 'Apply Payout' after you can see the minimap.")
-SN_Agency:add_separator()
-SN_Agency:add_button("Instant Finish", function()
-    locals.set_int("fm_mission_controller_2020", AGFl1, 51338752)
-    locals.set_int("fm_mission_controller_2020", AGFl2, 50)
-	gui.show_message("Agency", "Heist should've been finished")
-end)
-SN_Agency:add_sameline()
-SN_Agency:add_button("Skip Cutscene", SkipCutscene)
-SN_Agency:add_sameline()
-SN_Agency:add_button("Kill Cooldowns", function()
-    tunables.set_int("FIXER_STORY_COOLDOWN_POSIX", 0)
-    tunables.set_int("FIXER_SECURITY_CONTRACT_COOLDOWN_TIME", 0)
-    tunables.set_int("REQUEST_FRANKLIN_PAYPHONE_HIT_COOLDOWN", 0)
-    stats.set_int(MPX() .. "FIXER_STORY_COOLDOWN", -1)
-    gui.show_message("Agency", "Cooldowns should've been killed")
-end)
-SN_Agency:add_separator()
-SN_Agency:add_text("After All choices and pressing Complete Preps wait for sometime")
-
--- Autoshop tab
-local SN_Autoshop = SN_Heist_Editor:add_tab("Autoshop ")
-local AutoShopContracts = {
-    { name = "None", index = -1 },
-    { name = "Union Deposit.", index = 0 },
-    { name = "Superdol. Deal", index = 1 },
-    { name = "Bank Contract", index = 2 },
-    { name = "ECU Job", index = 3 },
-    { name = "Prison Contrac.", index = 4 },
-    { name = "Agency Deal", index = 5 },
-    { name = "Lost Contract", index = 6 },
-    { name = "Data Contract", index = 7 }
-}
-
-local autoSelectedIndex = 0
-SN_Autoshop:add_imgui(function()
-    ImGui.Text("Contract:")
-    autoSelectedIndex = ImGui.Combo("##AutoContract", autoSelectedIndex, { AutoShopContracts[1].name, AutoShopContracts[2].name, AutoShopContracts[3].name, AutoShopContracts[4].name, AutoShopContracts[5].name, AutoShopContracts[6].name, AutoShopContracts[7].name, AutoShopContracts[8].name, AutoShopContracts[9].name }, 9)
-end)
-SN_Autoshop:add_button("Apply & Complete Preps", function()
-    local contract = AutoShopContracts[autoSelectedIndex + 1].index
-    stats.set_int(MPX() .. "TUNER_CURRENT", contract)
-    stats.set_int(MPX() .. "TUNER_GEN_BS", (contract == 1 and 4351 or 12543))
-    locals.set_int("tuner_planning", ASRBl, 2)
-    gui.show_message("Autoshop", "Preps should've been completed")
-end)
-SN_Autoshop:add_button("Reset Preps", function()
-    stats.set_int(MPX() .. "TUNER_GEN_BS", 12467)
-    locals.set_int("tuner_planning", ASRBl, 2)
-    gui.show_message("Autoshop", "Preps should've been reset")
-end)
-SN_Autoshop:add_button("Redraw Board", function()
-    locals.set_int("tuner_planning", ASRBl, 2)
-    gui.show_message("Autoshop", "Board should've been redrawn")
-end)
-SN_Autoshop:add_separator()
-SN_Autoshop:add_text("Payouts:")
-local autoPayoutValue = 0
-SN_Autoshop:add_imgui(function()
-    autoPayoutValue, _ = ImGui.InputInt("##AutoPayout", autoPayoutValue)
-end)
-SN_Autoshop:add_button("Max", function()
-    autoPayoutValue = 2000000
-    gui.show_message("Autoshop", "Payout should've been maximized. Don't forget to apply")
-end)
-SN_Autoshop:add_button("Apply Payout", function()
-    local payout = autoPayoutValue
-    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD0", payout)
-    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD1", payout)
-    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD2", payout)
-    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD3", payout)
-    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD4", payout)
-    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD5", payout)
-    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD6", payout)
-    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD7", payout)
-    tunables.set_float("TUNER_ROBBERY_CONTACT_FEE", 0.0)
-    gui.show_message("Autoshop", "Payout should've been applied")
-end)
-SN_Autoshop:add_text("Use 'Apply Payout' after you can see the minimap.")
-SN_Autoshop:add_separator()
-SN_Autoshop:add_text("Extras")
-SN_Autoshop:add_button("Instant Finish", function ()
-	locals.set_int("fm_mission_controller_2020", ASIFl1, 51338977)
-	locals.set_int("fm_mission_controller_2020", ASIFl2, 101)
-	gui.show_message("Autoshop", "Heist should've been finished")
-end)
-SN_Autoshop:add_sameline()
-SN_Autoshop:add_button("Skip Cutscene", SkipCutscene)
-
--- Salvage Yard --
-local SN_Salvage = SN_Heist_Editor:add_tab("Salvage Yard ")
-local SalvageYard = {
-    robberies = {
-        { name = "Cargo Ship", index = 0 },
-        { name = "Gangbanger", index = 1 },
-        { name = "Duggan", index = 2 },
-        { name = "Podium", index = 3 },
-        { name = "McTony", index = 4 }
-    },
-    vehicles = {
-        { name = "LM87", index = 1 },
-        { name = "Cinquemila", index = 2 },
-        { name = "Autarch", index = 3 },
-        { name = "Tigon", index = 4 },
-        { name = "Champion", index = 5 },
-        { name = "10F", index = 6 },
-        { name = "SM722", index = 7 },
-        { name = "Omnis e-GT", index = 8 },
-        { name = "Growler", index = 9 },
-        { name = "Deity", index = 10 },
-        { name = "Itali RSX", index = 11 },
-        { name = "Coquette D10", index = 12 },
-        { name = "Jubilee", index = 13 },
-        { name = "Astron", index = 14 },
-        { name = "Comet S2 Cabr.", index = 15 },
-        { name = "Torero", index = 16 },
-        { name = "Cheetah Classic", index = 17 },
-        { name = "Turismo Classic", index = 18 },
-        { name = "Infernus Classic", index = 19 },
-        { name = "Stafford", index = 20 },
-        { name = "GT500", index = 21 },
-        { name = "Viseris", index = 22 },
-        { name = "Mamba", index = 23 },
-        { name = "Coquette Black.", index = 24 },
-        { name = "Stinger GT", index = 25 },
-        { name = "Z-Type", index = 26 },
-        { name = "Broadway", index = 27 },
-        { name = "Vigero ZX", index = 28 },
-        { name = "Buffalo STX", index = 29 },
-        { name = "Ruston", index = 30 },
-        { name = "Gauntl. Hellfire", index = 31 },
-        { name = "Dominator GTT", index = 32 },
-        { name = "Roosevelt Valor", index = 33 },
-        { name = "Swinger", index = 34 },
-        { name = "Stirling GT", index = 35 },
-        { name = "Omnis", index = 36 },
-        { name = "Tropos Rallye", index = 37 },
-        { name = "Jugular", index = 38 },
-        { name = "Patriot Mil-Spec", index = 39 },
-        { name = "Toros", index = 40 },
-        { name = "Caracara 4x4", index = 41 },
-        { name = "Sentinel Classic", index = 42 },
-        { name = "Weevil", index = 43 },
-        { name = "Blista Kanjo", index = 44 },
-        { name = "Eudora", index = 45 },
-        { name = "Kamacho", index = 46 },
-        { name = "Hellion", index = 47 },
-        { name = "Ellie", index = 48 },
-        { name = "Hermes", index = 49 },
-        { name = "Hustler", index = 50 },
-        { name = "Turismo Om.", index = 51 },
-        { name = "Buffalo EVX", index = 52 },
-        { name = "Itali GTO St.", index = 53 },
-        { name = "Virtue", index = 54 },
-        { name = "Ignus", index = 55 },
-        { name = "Zentorno", index = 56 },
-        { name = "Neon", index = 57 },
-        { name = "Furia", index = 58 },
-        { name = "Zorrusso", index = 59 },
-        { name = "Thrax", index = 60 },
-        { name = "Vagner", index = 61 },
-        { name = "Panthere", index = 62 },
-        { name = "Itali GTO", index = 63 },
-        { name = "S80RR", index = 64 },
-        { name = "Tyrant", index = 65 },
-        { name = "Entity MT", index = 66 },
-        { name = "Torero XO", index = 67 },
-        { name = "Neo", index = 68 },
-        { name = "Corsita", index = 69 },
-        { name = "Paragon R", index = 70 },
-        { name = "Franken Stange", index = 71 },
-        { name = "Comet Safari", index = 72 },
-        { name = "FR36", index = 73 },
-        { name = "Hotring Everon", index = 74 },
-        { name = "Komoda", index = 75 },
-        { name = "Tailgater S", index = 76 },
-        { name = "Jester Classic", index = 77 },
-        { name = "Jester RR", index = 78 },
-        { name = "Euros", index = 79 },
-        { name = "ZR350", index = 80 },
-        { name = "Cypher", index = 81 },
-        { name = "Dominator ASP", index = 82 },
-        { name = "Baller ST-D", index = 83 },
-        { name = "Casco", index = 84 },
-        { name = "Drift Yosemite", index = 85 },
-        { name = "Everon", index = 86 },
-        { name = "Penumbra FF", index = 87 },
-        { name = "V-STR", index = 88 },
-        { name = "Dominator GT", index = 89 },
-        { name = "Schlagen GT", index = 90 },
-        { name = "Cavalcade XL", index = 91 },
-        { name = "Clique", index = 92 },
-        { name = "Boor", index = 93 },
-        { name = "Sugoi", index = 94 },
-        { name = "Greenwood", index = 95 },
-        { name = "Brigham", index = 96 },
-        { name = "Issi Rally", index = 97 },
-        { name = "Seminole Fr.", index = 98 },
-        { name = "Kanjo SJ", index = 99  },
-        { name = "Previon", index = 100 }
-    },
-    modifications = {
-        { name = "Version 1", index = 0 },
-        { name = "Version 2", index = 1 },
-        { name = "Version 3", index = 2 },
-        { name = "Version 4", index = 3 },
-        { name = "Version 5", index = 4 },
-    },
-    keeps = {
-        { name = "Can't Claim", index = 0 },
-        { name = "Can Claim", index = 1 }
-    },
-    tunables = {
-        robbery_slot1_type = 1152433341,
-        robbery_slot2_type = 852564222,
-        robbery_slot3_type = 552662330,
-        vehicle_slot1_type = -1012732012,
-        vehicle_slot1_value = -1699398139,
-        vehicle_slot1_cankeep = -1700733442,
-        vehicle_slot2_type = 1366330161,
-        vehicle_slot2_value = -1997104504,
-        vehicle_slot2_cankeep = -1547046832,
-        vehicle_slot3_type = 1806057372,
-        vehicle_slot3_value = -1704051341,
-        vehicle_slot3_cankeep = 1830093543,
-        cooldown_weekly = "SALV23_VEH_ROBBERY_WEEK_ID"
-    },
-    salvage_missions = {
-        { script = "fm_content_vehrob_cargo_ship", step1 = 7185 + 1, step2 = 7330 + 1249 },
-        { script = "fm_content_vehrob_police", step1 = 9011 + 1, step2 = 9144 + 1305 },
-        { script = "fm_content_vehrob_arena", step1 = 7912 + 1, step2 = 8032 + 1314 },
-        { script = "fm_content_vehrob_casino_prize", step1 = 9191 + 1, step2 = 9328 + 1258 },
-        { script = "fm_content_vehrob_submarine", step1 = 6218 + 1, step2 = 6356 + 1159 },
-    },
-}
-
-local slot_names = { "Slot 1", "Slot 2", "Slot 3" }
-local slot1 = {
-    robbery_index = 0,
-    vehicle_index = 0,
-    mod_index = 0,
-    keep_index = 0
-}
-local slot2 = {
-    robbery_index = 0,
-    vehicle_index = 0,
-    mod_index = 0,
-    keep_index = 0
-}
-local slot3 = {
-    robbery_index = 0,
-    vehicle_index = 0,
-    mod_index = 0,
-    keep_index = 0
-}
-
-local robbery_names = {}
-for _, robbery in ipairs(SalvageYard.robberies) do
-    table.insert(robbery_names, robbery.name)
-end
-
-local vehicle_names = {}
-for _, vehicle in ipairs(SalvageYard.vehicles) do
-    table.insert(vehicle_names, vehicle.name)
-end
-
-local mod_names = {}
-for _, mod in ipairs(SalvageYard.modifications) do
-    table.insert(mod_names, mod.name)
-end
-
-local keep_names = {}
-for _, keep in ipairs(SalvageYard.keeps) do
-    table.insert(keep_names, keep.name)
-end
-local ssIndex = 0
-SN_Salvage:add_imgui(function()
-    local nIndex, changed = ImGui.Combo("##Slot", ssIndex, slot_names, #slot_names)
-    if changed then
-        ssIndex = nIndex
-    end
-    local currSlot = ssIndex + 1
-    local slots = {slot1, slot2, slot3}
-    local slot = slots[currSlot]
-
-    local nIndex, changed = ImGui.Combo("Robbery", slot.robbery_index, robbery_names, #robbery_names)
-    if changed then
-        slot.robbery_index = nIndex
-        gui.show_message("Salvage Yard", "Selected " .. slot_names[ssIndex + 1] .. " robbery: " .. robbery_names[slot.robbery_index + 1])
-    end
-
-    nIndex, changed = ImGui.Combo("Vehicle", slot.vehicle_index, vehicle_names, #vehicle_names)
-    if changed then
-        slot.vehicle_index = nIndex
-        gui.show_message("Salvage Yard", "Selected " .. slot_names[ssIndex + 1] .. " vehicle: " .. vehicle_names[slot.vehicle_index + 1])
-    end
-
-    nIndex, changed = ImGui.Combo("Modification", slot.mod_index, mod_names, #mod_names)
-    if changed then
-        slot.mod_index = nIndex
-        gui.show_message("Salvage Yard", "Selected " .. slot_names[ssIndex + 1] .. " modification: " .. mod_names[slot.mod_index + 1])
-    end
-
-    nIndex, changed = ImGui.Combo("Status", slot.keep_index, keep_names, #keep_names)
-    if changed then
-        slot.keep_index = nIndex
-        gui.show_message("Salvage Yard", "Selected " .. slot_names[ssIndex + 1] .. " status: " .. keep_names[slot.keep_index + 1])
-    end
-
-    if ImGui.Button("Apply Changes") then
-        local robbery = SalvageYard.robberies[slot.robbery_index + 1].index
-        local vehicle = SalvageYard.vehicles[slot.vehicle_index + 1].index
-        local mod = SalvageYard.modifications[slot.mod_index + 1].index
-        local keep = SalvageYard.keeps[slot.keep_index + 1].index
-        tunables.set_int(SalvageYard.tunables["robbery_slot" .. currSlot .. "_type"], robbery)
-        tunables.set_int(SalvageYard.tunables["vehicle_slot" .. currSlot .. "_type"], vehicle + mod * 100)
-        tunables.set_int(SalvageYard.tunables["vehicle_slot" .. currSlot .. "_cankeep"], keep)
-        locals.set_int("vehrob_planning", SYRl1, 2)
-        gui.show_message("Salvage Yard", slot_names[ssIndex + 1] .. " changes should've been applied")
-    end
-    ImGui.SameLine()
-    if ImGui.Button("Make Available") then
-        stats.set_int(MPX() .. "SALV23_VEHROB_STATUS" .. (currSlot - 1), 0)
-        locals.set_int("vehrob_planning", SYRl1, 2)
-        gui.show_message("Salvage Yard", slot_names[ssIndex + 1] .. " should've been made Available")
-    end
-end)
-
-SN_Salvage:add_text("")
-SN_Salvage:add_text("Preps")
-SN_Salvage:add_separator()
-SN_Salvage:add_button("Complete Preps", function()
-    stats.set_int(MPX() .. "SALV23_GEN_BS", -1)
-    stats.set_int(MPX() .. "SALV23_SCOPE_BS", -1)
-    stats.set_int(MPX() .. "SALV23_FM_PROG", -1)
-    stats.set_int(MPX() .. "SALV23_INST_PROG", -1)
-    locals.set_int("vehrob_planning", SYRl1, 2)
-    gui.show_message("Salvage Yard", "Preps should've been completed")
-end)
-SN_Salvage:add_sameline()   
-SN_Salvage:add_button("Reset Preps", function()
-    stats.set_int(MPX() .. "SALV23_GEN_BS", 0)
-    stats.set_int(MPX() .. "SALV23_SCOPE_BS", 0)
-    stats.set_int(MPX() .. "SALV23_FM_PROG", 0)
-    stats.set_int(MPX() .. "SALV23_INST_PROG", 0)
-    locals.set_int("vehrob_planning", SYRl1, 2)
-    gui.show_message("Salvage Yard", "Preps should've been reset")
-end)
-SN_Salvage:add_button("Reload Screen", function()
-    locals.set_int("vehrob_planning", SYRl1, 2)
-    gui.show_message("Salvage Yard", "Screen should've been reloaded")
-end)
-SN_Salvage:add_button("Skip Weekly Cooldown", function()
-    tunables.set_int(SalvageYard.tunables.cooldown_weekly, stats.get_int(MPX() .. "SALV23_WEEK_SYNC") + 1)
-    locals.set_int("vehrob_planning", SYRl1, 2)
-    gui.show_message("Salvage Yard", "Cooldown should've been skipped")
-end)
-
-SN_Salvage:add_separator()
-SN_Salvage:add_text("Payout")
-sell_value_slot1 = SN_Salvage:add_input_int("Sell Value Slot 1")
-sell_value_slot1:set_value(0)
-sell_value_slot2 = SN_Salvage:add_input_int("Sell Value Slot 2")
-sell_value_slot2:set_value(0)
-sell_value_slot3 = SN_Salvage:add_input_int("Sell Value Slot 3")
-sell_value_slot3:set_value(0)
-SN_Salvage:add_button("Apply Sell Values", function()
-    tunables.set_int(SalvageYard.tunables.vehicle_slot1_value, sell_value_slot1:get_value())
-    tunables.set_int(SalvageYard.tunables.vehicle_slot2_value, sell_value_slot2:get_value())
-    tunables.set_int(SalvageYard.tunables.vehicle_slot3_value, sell_value_slot3:get_value())
-    locals.set_int("vehrob_planning", SYRl1, 2)
-    gui.show_message("Salvage Yard", "Sell values should've been applied")
-end)
-
-SN_Salvage:add_text("")
-SN_Salvage:add_text("Misc")
-SN_Salvage:add_separator()
-SN_Salvage:add_button("Instant Finish", function()    
-    for _, mission in ipairs(SalvageYard.salvage_missions) do
-        local value = locals.get_int(mission.script, mission.step1)
-        locals.set_int(mission.script, mission.step1, value | (1 << 11))
-        locals.set_int(mission.script, mission.step2, 2)
-    end
-	gui.show_message("Salvage Yard", "Heist should've been finished")
-end)
-SN_Salvage:add_sameline()
-SN_Salvage:add_button("Instant Sell", function()
-    local player_ped = PLAYER.PLAYER_PED_ID()
-    PED.SET_PED_COORDS_KEEP_VEHICLE(player_ped, 1169.0, -2976.0, 6.0)
-	gui.show_message("Salvage Yard", "Sell mission should've been finished")
-end)
-SN_Salvage:add_sameline()
-SN_Salvage:add_button("Skip Cutscene", SkipCutscene)
-
-
--- Cluckin Bell --
-local cluckperps = {
-	{ id = 0 , name = "Slush Fund"},
-	{ id = 1 , name = "Breaking and Entering"},
-	{ id = 3 , name = "Concealed Rewards"},
-	{ id = 7 , name = "Hit And Run"},
-	{ id = 15, name = "Disorganized Crime"},
-	{ id = 31, name = "Scene of Crime"}
-}
-
-local SN_Cluck = SN_Heist_Editor:add_tab("Cluckin Bell Heist ")
-
-SN_Cluck:add_text("Complete Preps")
-
-for _,cluckprep in ipairs(cluckperps) do
-	SN_Cluck:add_button(cluckprep.name,
-	function ()
-		stats.set_int(MPX() .. "SALV23_INST_PROG", cluckprep.id)
-	end)
-	SN_Cluck:add_sameline()
-end
-SN_Cluck:add_separator()
-SN_Cluck:add_text("Reset preps")
-SN_Cluck:add_button("Reset Preps",
-function ()
-	stats.set_int(MPX() .. "SALV23_INST_PROG", 0)
-end)
-
 
 -- Cut Setter for Heist --
 local function CutsPresetter(global_start, global_finish, cut)
@@ -1102,116 +660,178 @@ local function CutsPresetter(global_start, global_finish, cut)
 	end
 end
 
--- Doomsday --
-local function DoomsdayActSetter(progress, status)
-	stats.set_int(MPX() .. "GANGOPS_FLOW_MISSION_PROG", progress)
-	stats.set_int(MPX() .. "GANGOPS_HEIST_STATUS", status)
-	stats.set_int(MPX() .. "GANGOPS_FLOW_NOTIFICATIONS", 1557)
-end
+-- Apartment Heist --
+local SN_Apartment = SN_Heist_Editor:add_tab("Apartment Heist ")
+SN_Apartment:add_text("Preps")
+SN_Apartment:add_button("Complete Preps", function()
+    stats.set_int(MPX() .. "HEIST_PLANNING_STAGE", -1)
+    gui.show_message("Apartment Heist", "Preps should've been completed")
+end)
+SN_Apartment:add_sameline()
+SN_Apartment:add_button("Redraw Board", function()
+    globals.set_int(AHRg, 22)
+    gui.show_message("Apartment Heist", "Board should've been redrawn")
+end)
+SN_Apartment:add_text("")
+SN_Apartment:add_text("For Fleeca:")
+SN_Apartment:add_text("Pay for the preparation, start the first mission and as soon as you are sent to scout\nchange the session, come back to planning room, press \"Complete Preps\" near white board and press \"E\"")
+SN_Apartment:add_text("For Other Heist:")
+SN_Apartment:add_text("Start the mission and leave after the 1st cutscene ends, press \"Complete Preps\" near white board and press \"E\"")
+SN_Apartment:add_separator()
+SN_Apartment:add_button("Kill Cooldown", function()
+    globals.set_int(ACDg + 1 + (PLAYER.PLAYER_ID() * 77) + 76, -1)
+    gui.show_message("Apartment Heist", "Cooldown should've been killed")
+end)
+SN_Apartment:add_sameline()
+SN_Apartment:add_button("Change Session", function()
+    changeSession(8)
+end)
 
-local SN_Doomsday = SN_Heist_Editor:add_tab("Doomsday Heist ")
-SN_Doomsday:add_text("Doomsday Acts")
-SN_Doomsday:add_button("Act I: Data Breaches",
-function ()
-	DoomsdayActSetter(503, 229383)
-end)
-SN_Doomsday:add_sameline()
-SN_Doomsday:add_button("Act II: Bogdan Problem",
-function ()
-	DoomsdayActSetter(240, 229378)
-end)
-SN_Doomsday:add_sameline()
-SN_Doomsday:add_button("Act III: Doomsday Scenario",
-function ()
-	DoomsdayActSetter(16368, 229380)
-end)
-
-local DoomsdayHeists = {
-    [503]   = {975000, 1218750},
-    [240]   = {1425000, 1771250},
-    [16368] = {1800000, 2250000}
+local heistCuts = {
+    easy = {
+        [1328892776] = {-5862, 2981},
+        [964111671] =  {-1614, 857},  
+        [1131632450] = {-1168, 634},
+        [1967927346] = {-1596, 848},
+        [1182286714] = {-700, 400}
+    },
+    normal = {
+        [1328892776] = {-2878, 1489},
+        [964111671] =  {-756, 428},
+        [1131632450] = {-534, 317},
+        [1967927346] = {-748, 424},
+        [1182286714] = {-300, 200}
+    },
+    hard = {
+        [1328892776] = {-2284, 1192},
+        [964111671] =  {-584, 342},
+        [1131632450] = {-406, 253},
+        [1967927346] = {-578, 339},
+        [1182286714] = {-220, 160}
+    }
 }
 
-function SetDoomsdayMaxPayout()
-    local heist = stats.get_int(MPX() .. "GANGOPS_FLOW_MISSION_PROG")
-    local difficulty = globals.get_int(AHDg)
-    if difficulty == 0 then difficulty = 1 end
+SN_Apartment:add_separator()
+SN_Apartment:add_text("Works only for you. Allows you to get 12 millions bonus for The Pacific Standard Job on hard difficulty.\nEnable before starting the heist. Has a cooldown.")
 
-    local heistData = DoomsdayHeists[heist]
-    if heistData == nil then return end
+local apartmentBonus = SN_Apartment:add_checkbox("12mil Bonus")
+local previousState = false
 
-    local payout = heistData[difficulty]
-    local maxPayout = 2550000
-    local cut = math.floor(maxPayout / (payout / 100))
-    
-    return cut
-end
-
-SN_Doomsday:add_separator()
-SN_Doomsday:add_text("Custom Cuts:")
-local dmsdyCut1 = SN_Doomsday:add_input_int("Cut 1")
-local dmsdyCut2 = SN_Doomsday:add_input_int("Cut 2")
-local dmsdyCut3 = SN_Doomsday:add_input_int("Cut 3")
-local dmsdyCut4 = SN_Doomsday:add_input_int("Cut 4")
-
-local Presets = {
-    { name = "All - 0%", index = 0 },
-    { name = "All - 85%", index = 85 },
-    { name = "All - 100%", index = 100 },
-    { name = "2.55mil Payout", index = -1 }
-}
-
-local presetNames = {}
-for _, preset in ipairs(Presets) do
-    table.insert(presetNames, preset.name)
-end
-local sPresetIndex = 0
-
-SN_Doomsday:add_imgui(function()
-    ImGui.Text("Presets:")
-	ImGui.SetNextItemWidth(170)
-    local nIndex, changed = ImGui.Combo("##DoomsdayPreset", sPresetIndex, presetNames, #presetNames)
-    if changed then
-        sPresetIndex = nIndex
-        local selected = Presets[sPresetIndex + 1]
-        local cutValue = selected.index
-        if cutValue == -1 then
-            cutValue = SetDoomsdayMaxPayout()
-        end
-        if dmsdyCut1 then dmsdyCut1:set_value(cutValue) end
-        if dmsdyCut2 then dmsdyCut2:set_value(cutValue) end
-        if dmsdyCut3 then dmsdyCut3:set_value(cutValue) end
-        if dmsdyCut4 then dmsdyCut4:set_value(cutValue) end
+script.register_looped("SN_Apartment_Bonus", function(script)
+    script:yield()
+    local currentState = apartmentBonus:is_enabled()
+    if currentState ~= previousState then
+        stats.set_int(joaat("MPPLY_HEISTFLOWORDERPROGRESS"), currentState and 268435455 or 134217727)
+        stats.set_bool(joaat("MPPLY_AWD_HST_ORDER"), not currentState)
+        stats.set_int(joaat("MPPLY_HEISTTEAMPROGRESSBITSET"), currentState and 268435455 or 134217727)
+        stats.set_bool(joaat("MPPLY_AWD_HST_SAME_TEAM"), not currentState)
+        stats.set_int(joaat("MPPLY_HEISTNODEATHPROGREITSET"), currentState and 268435455 or 134217727)
+        stats.set_bool(joaat("MPPLY_AWD_HST_ULT_CHAL"), not currentState)
+        gui.show_message("12mil Bonus", currentState and "Bonus should've been applied. Don't forget about difficulty" or "Bonus should've been unapplied")
+        previousState = currentState
     end
+    script:sleep(100)
 end)
 
-SN_Doomsday:add_button("Apply Cuts", function()
-    globals.set_int(DCg1, dmsdyCut1:get_value())
-    globals.set_int(DCg2, dmsdyCut2:get_value())
-    globals.set_int(DCg3, dmsdyCut3:get_value())
-    globals.set_int(DCg4, dmsdyCut4:get_value())
-    gui.show_message("Doomsday Heist", "Cuts should've been applied")
+SN_Apartment:add_separator()
+local difficultyKeys = {"easy", "normal", "hard"}
+SN_Apartment:add_button("3mil Payout", function()
+    script.run_in_fiber(function(ap)
+        local key = globals.get_int(ACDg + (PLAYER.PLAYER_ID() * 77) + 24 + 2)
+        local difficultyG = globals.get_int(AHDg)
+        local difficulty = difficultyKeys[difficultyG + 1]
+        local cuts = heistCuts[difficulty][key]
+        if cuts then
+            globals.set_int(ACg1, 100 - (cuts[2] * locals.get_int("fmmc_launcher", HGGs1)))
+            globals.set_int(ACg2, cuts[2])
+            if key ~= 1328892776 then
+                globals.set_int(ACg3, cuts[2])
+                globals.set_int(ACg4, cuts[2])
+            end
+            PAD.SET_CONTROL_VALUE_NEXT_FRAME(2, 201, 1)
+            ap:sleep(1000)
+            PAD.SET_CONTROL_VALUE_NEXT_FRAME(2, 202, 1)
+            ap:sleep(1000)
+            globals.set_int(ACg5, -1 * (-100 + cuts[1]) / 2)
+            gui.show_message("Apartment Heist", "Cuts should've been applied")
+        end
+    end)
 end)
-SN_Doomsday:add_separator()
-SN_Doomsday:add_text("Preps")
-SN_Doomsday:add_button("Reset Preps",
-function ()
-	DoomsdayActSetter(240, 0)
-	gui.show_message("Doomsday Heist", "Preps should've been reset")
+SN_Apartment:add_separator()
+
+
+local apartCut1 = 0
+local apartCut2 = 0
+local apartCut3 = 0
+local apartCut4 = 0
+SN_Apartment:add_imgui(
+    function ()
+        PAD.DISABLE_CONTROL_ACTION(2, 237, true)
+        ImGui.Text("Custom Cuts:")
+        ImGui.SetNextItemWidth(150)
+        apartCut1 = ImGui.InputInt("Cut 1", apartCut1)
+        ImGui.SameLine()
+        ImGui.SetNextItemWidth(150)
+        apartCut2 = ImGui.InputInt("Cut 2", apartCut2)
+        ImGui.SetNextItemWidth(150)
+        apartCut3 = ImGui.InputInt("Cut 3", apartCut3)
+        ImGui.SameLine()
+        ImGui.SetNextItemWidth(150)
+        apartCut4 = ImGui.InputInt("Cut 4", apartCut4)
+        if ImGui.Button("Set Cuts") then
+            script.run_in_fiber(function(ccut)
+                local heistType = locals.get_int("fmmc_launcher", HGGs1)
+                local multiplier = (heistType == 1328892776) and 2 or 4
+                globals.set_int(ACg1, 100 - (apartCut1 * multiplier))
+                globals.set_int(ACg2, apartCut2)
+                globals.set_int(ACg3, apartCut3)
+                globals.set_int(ACg4, apartCut4)
+                PAD.SET_CONTROL_VALUE_NEXT_FRAME(2, 201, 1)
+                ccut:sleep(1000)
+                PAD.SET_CONTROL_VALUE_NEXT_FRAME(2, 202, 1)
+                ccut:sleep(1000)
+                globals.set_int(ACg5, -1 * (-100 + globals.get_int(ACg1)) / multiplier)
+                gui.show_message("Apartment Heist", "Cuts should've been applied")
+            end)
+        end
+    end
+)
+SN_Apartment:add_separator()
+SN_Apartment:add_text("Extras")
+SN_Apartment:add_button("Bypass Fleeca Hack", function()
+    locals.set_int("fm_mission_controller", AFHl, 7)
+    gui.show_message("Apartment Heist", "Hacking process should've been skipped")
 end)
-SN_Doomsday:add_sameline()
-SN_Doomsday:add_button("Complete Preps",
-function ()
-	stats.set_int(MPX() .. "GANGOPS_FM_MISSION_PROG", -1)
+SN_Apartment:add_sameline()
+SN_Apartment:add_button("Bypass Fleeca Drill", function()
+    locals.set_float("fm_mission_controller", AFDl, 100)
+    gui.show_message("Apartment Heist", "Drilling process should've been skipped")
 end)
-SN_Doomsday:add_separator()
-SN_Doomsday:add_text("Extras")
-SN_Doomsday:add_button("By Act III Pass hack",
-function ()
-	locals.set_int("fm_mission_controller", DDSHl, 3)
+SN_Apartment:add_sameline()
+SN_Apartment:add_button("Bypass Pacific Hack", function()
+    locals.set_int("fm_mission_controller", AFPl, 9)
+    gui.show_message("Apartment Heist", "Hacking process should've been skipped")
 end)
-SN_Doomsday:add_sameline()
-SN_Doomsday:add_button("Solo Launch",
+SN_Apartment:add_sameline()
+SN_Apartment:add_button("Skip Checkpoint", function()
+    locals.set_int("fm_mission_controller", AHSo, locals.get_int("fm_mission_controller", AHSo) | (1 << 17))
+	gui.show_message("Apartment Heist", "Checkpoint should've been skipped")
+end)
+SN_Apartment:add_sameline()
+SN_Apartment:add_button("Unlock All Jobs", function()
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_0", globals.get_int(AUAJg1))
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_0_L", 5)
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_1", globals.get_int(AUAJg2))
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_1_L", 5)
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_2", globals.get_int(AUAJg3))
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_2_L", 5)
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_3", globals.get_int(AUAJg4))
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_3_L", 5)
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_4", globals.get_int(AUAJg5))
+    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_4_L", 5)
+	gui.show_message("Apartment Heist", "All jobs should've been unlocked. Don't forget to restart the game")
+end)
+SN_Apartment:add_button("Solo Launch",
 function()
 	if locals.get_int("fmmc_launcher", HGGs1) ~= nil then
 		if locals.get_int("fmmc_launcher", HGGs1) ~= 0 then
@@ -1226,27 +846,41 @@ function()
 		end
 	end
 end)
-SN_Doomsday:add_button("Instant Finish", function()
-    locals.set_int("fm_mission_controller", DDIF1, 12)
-    locals.set_int("fm_mission_controller", DDIF2, 150)
-    locals.set_int("fm_mission_controller", DDIF3, 99999)
-    locals.set_int("fm_mission_controller", DDIF4, 99999)
-    locals.set_int("fm_mission_controller", DDIF5, 80)
-	gui.show_message("Doomsday Heist", "Heist should've been finished")
-end)
-SN_Doomsday:add_sameline()
-SN_Doomsday:add_button("Force Ready", function()
+SN_Apartment:add_sameline()
+SN_Apartment:add_button("Skip Cutscene", SkipCutscene)
+SN_Apartment:add_sameline()
+SN_Apartment:add_button("Force Ready", function()
     script.run_in_fiber(function(script)
         network.force_script_host("fm_mission_controller")
         script:sleep(1000)
         for i = 1, 4 do
-            globals.set_int(1882572 + 1 + ((i - 1) * 315) + 43 + 11 + i, 1)
+            globals.set_int(2658291 + 1 + ((i - 1) * 468) + 270, 6)
         end
-        gui.show_message("Doomsday Heist", "Everyone should've been forced ready")
+        gui.show_message("Apartment Heist", "Everyone should've been forced ready")
     end)
 end)
-SN_Doomsday:add_sameline()
-SN_Doomsday:add_button("Skip Cutscene", SkipCutscene)
+SN_Apartment:add_sameline()
+SN_Apartment:add_button("Instant Finish", function()
+    script.run_in_fiber(function(script)
+        network.force_script_host("fm_mission_controller")
+        script:sleep(1000)
+        local heistType = globals.get_int(ACDg + (PLAYER.PLAYER_ID() * 77) + 24 + 2)
+        if heistType == 1182286714 then
+            locals.set_int("fm_mission_controller", AIFl2, 5)
+            locals.set_int("fm_mission_controller", AIFl3, 80)
+            locals.set_int("fm_mission_controller", AIFl4, 10000000)
+            locals.set_int("fm_mission_controller", AIFl5, 99999)
+            locals.set_int("fm_mission_controller", AIFl6, 99999)
+        else
+            locals.set_int("fm_mission_controller", AIFl1, 12)
+            locals.set_int("fm_mission_controller", AIFl4, 99999)
+            locals.set_int("fm_mission_controller", AIFl5, 99999)
+            locals.set_int("fm_mission_controller", AIFl6, 99999)
+        end
+    end)
+end)
+SN_Apartment:add_text("")
+SN_Apartment:add_text("Note: After Clicking Unlock All Heists, restart the game")
 
 -- Casino Heist --
 local SN_CasinoHeist = SN_Heist_Editor:add_tab("Diamond Casino Heist ")
@@ -1838,6 +1472,152 @@ SN_CasinoHeist:add_button("Skip Setup", function()
     gui.show_message("Diamond Casino Heist", "Arcade Setups should've been skipped. Don't forget to change the session.")
 end)
 SN_CasinoHeist:add_text("After clicking the Kill Cooldown button, go offline and then come back online")
+
+-- Doomsday --
+local function DoomsdayActSetter(progress, status)
+	stats.set_int(MPX() .. "GANGOPS_FLOW_MISSION_PROG", progress)
+	stats.set_int(MPX() .. "GANGOPS_HEIST_STATUS", status)
+	stats.set_int(MPX() .. "GANGOPS_FLOW_NOTIFICATIONS", 1557)
+end
+
+local SN_Doomsday = SN_Heist_Editor:add_tab("Doomsday Heist ")
+SN_Doomsday:add_text("Doomsday Acts")
+SN_Doomsday:add_button("Act I: Data Breaches",
+function ()
+	DoomsdayActSetter(503, 229383)
+end)
+SN_Doomsday:add_sameline()
+SN_Doomsday:add_button("Act II: Bogdan Problem",
+function ()
+	DoomsdayActSetter(240, 229378)
+end)
+SN_Doomsday:add_sameline()
+SN_Doomsday:add_button("Act III: Doomsday Scenario",
+function ()
+	DoomsdayActSetter(16368, 229380)
+end)
+
+local DoomsdayHeists = {
+    [503]   = {975000, 1218750},
+    [240]   = {1425000, 1771250},
+    [16368] = {1800000, 2250000}
+}
+
+function SetDoomsdayMaxPayout()
+    local heist = stats.get_int(MPX() .. "GANGOPS_FLOW_MISSION_PROG")
+    local difficulty = globals.get_int(AHDg)
+    if difficulty == 0 then difficulty = 1 end
+
+    local heistData = DoomsdayHeists[heist]
+    if heistData == nil then return end
+
+    local payout = heistData[difficulty]
+    local maxPayout = 2550000
+    local cut = math.floor(maxPayout / (payout / 100))
+    
+    return cut
+end
+
+SN_Doomsday:add_separator()
+SN_Doomsday:add_text("Custom Cuts:")
+local dmsdyCut1 = SN_Doomsday:add_input_int("Cut 1")
+local dmsdyCut2 = SN_Doomsday:add_input_int("Cut 2")
+local dmsdyCut3 = SN_Doomsday:add_input_int("Cut 3")
+local dmsdyCut4 = SN_Doomsday:add_input_int("Cut 4")
+
+local Presets = {
+    { name = "All - 0%", index = 0 },
+    { name = "All - 85%", index = 85 },
+    { name = "All - 100%", index = 100 },
+    { name = "2.55mil Payout", index = -1 }
+}
+
+local presetNames = {}
+for _, preset in ipairs(Presets) do
+    table.insert(presetNames, preset.name)
+end
+local sPresetIndex = 0
+
+SN_Doomsday:add_imgui(function()
+    ImGui.Text("Presets:")
+	ImGui.SetNextItemWidth(170)
+    local nIndex, changed = ImGui.Combo("##DoomsdayPreset", sPresetIndex, presetNames, #presetNames)
+    if changed then
+        sPresetIndex = nIndex
+        local selected = Presets[sPresetIndex + 1]
+        local cutValue = selected.index
+        if cutValue == -1 then
+            cutValue = SetDoomsdayMaxPayout()
+        end
+        if dmsdyCut1 then dmsdyCut1:set_value(cutValue) end
+        if dmsdyCut2 then dmsdyCut2:set_value(cutValue) end
+        if dmsdyCut3 then dmsdyCut3:set_value(cutValue) end
+        if dmsdyCut4 then dmsdyCut4:set_value(cutValue) end
+    end
+end)
+
+SN_Doomsday:add_button("Apply Cuts", function()
+    globals.set_int(DCg1, dmsdyCut1:get_value())
+    globals.set_int(DCg2, dmsdyCut2:get_value())
+    globals.set_int(DCg3, dmsdyCut3:get_value())
+    globals.set_int(DCg4, dmsdyCut4:get_value())
+    gui.show_message("Doomsday Heist", "Cuts should've been applied")
+end)
+SN_Doomsday:add_separator()
+SN_Doomsday:add_text("Preps")
+SN_Doomsday:add_button("Reset Preps",
+function ()
+	DoomsdayActSetter(240, 0)
+	gui.show_message("Doomsday Heist", "Preps should've been reset")
+end)
+SN_Doomsday:add_sameline()
+SN_Doomsday:add_button("Complete Preps",
+function ()
+	stats.set_int(MPX() .. "GANGOPS_FM_MISSION_PROG", -1)
+end)
+SN_Doomsday:add_separator()
+SN_Doomsday:add_text("Extras")
+SN_Doomsday:add_button("By Act III Pass hack",
+function ()
+	locals.set_int("fm_mission_controller", DDSHl, 3)
+end)
+SN_Doomsday:add_sameline()
+SN_Doomsday:add_button("Solo Launch",
+function()
+	if locals.get_int("fmmc_launcher", HGGs1) ~= nil then
+		if locals.get_int("fmmc_launcher", HGGs1) ~= 0 then
+			if locals.get_int("fmmc_launcher", HGGs1) > 1 then
+					locals.set_int("fmmc_launcher", HGGs2, 1)
+                    globals.set_int(794954 + 4 + 1 + (locals.get_int("fmmc_launcher", HGGs1) * 95) + 75, 1)
+			end
+			globals.set_int(HGLs1, 1)
+            globals.set_int(HGLs2, 1)
+            globals.set_int(HGLs3, 1)
+            globals.set_int(HGLs4, 0)
+		end
+	end
+end)
+SN_Doomsday:add_button("Instant Finish", function()
+    locals.set_int("fm_mission_controller", DDIF1, 12)
+    locals.set_int("fm_mission_controller", DDIF2, 150)
+    locals.set_int("fm_mission_controller", DDIF3, 99999)
+    locals.set_int("fm_mission_controller", DDIF4, 99999)
+    locals.set_int("fm_mission_controller", DDIF5, 80)
+	gui.show_message("Doomsday Heist", "Heist should've been finished")
+end)
+SN_Doomsday:add_sameline()
+SN_Doomsday:add_button("Force Ready", function()
+    script.run_in_fiber(function(script)
+        network.force_script_host("fm_mission_controller")
+        script:sleep(1000)
+        for i = 1, 4 do
+            globals.set_int(1882572 + 1 + ((i - 1) * 315) + 43 + 11 + i, 1)
+        end
+        gui.show_message("Doomsday Heist", "Everyone should've been forced ready")
+    end)
+end)
+SN_Doomsday:add_sameline()
+SN_Doomsday:add_button("Skip Cutscene", SkipCutscene)
 
 -- Cayo Heist --
 local function CutsPresetter(global_start, global_finish, cut)
@@ -2486,227 +2266,943 @@ SN_CayoExtra:add_button("Reset Kosatka Board", function()
 	gui.show_message("Cayo Heist", "Planning board has been reset!")
 end)
 
--- Apartment Heist --
-local SN_Apartment = SN_Heist_Editor:add_tab("Apartment Heist ")
-SN_Apartment:add_text("Preps")
-SN_Apartment:add_button("Complete Preps", function()
-    stats.set_int(MPX() .. "HEIST_PLANNING_STAGE", -1)
-    gui.show_message("Apartment Heist", "Preps should've been completed")
-end)
-SN_Apartment:add_sameline()
-SN_Apartment:add_button("Redraw Board", function()
-    globals.set_int(AHRg, 22)
-    gui.show_message("Apartment Heist", "Board should've been redrawn")
-end)
-SN_Apartment:add_text("")
-SN_Apartment:add_text("For Fleeca:")
-SN_Apartment:add_text("Pay for the preparation, start the first mission and as soon as you are sent to scout\nchange the session, come back to planning room, press \"Complete Preps\" near white board and press \"E\"")
-SN_Apartment:add_text("For Other Heist:")
-SN_Apartment:add_text("Start the mission and leave after the 1st cutscene ends, press \"Complete Preps\" near white board and press \"E\"")
-SN_Apartment:add_separator()
-SN_Apartment:add_button("Kill Cooldown", function()
-    globals.set_int(ACDg + 1 + (PLAYER.PLAYER_ID() * 77) + 76, -1)
-    gui.show_message("Apartment Heist", "Cooldown should've been killed")
-end)
-SN_Apartment:add_sameline()
-SN_Apartment:add_button("Change Session", function()
-    changeSession(8)
-end)
+-- Kortz Center Heist --
+local SN_Kortz = SN_Heist_Editor:add_tab("Kortz Center Heist ")
 
-local heistCuts = {
-    easy = {
-        [1328892776] = {-5862, 2981},
-        [964111671] =  {-1614, 857},  
-        [1131632450] = {-1168, 634},
-        [1967927346] = {-1596, 848},
-        [1182286714] = {-700, 400}
-    },
-    normal = {
-        [1328892776] = {-2878, 1489},
-        [964111671] =  {-756, 428},
-        [1131632450] = {-534, 317},
-        [1967927346] = {-748, 424},
-        [1182286714] = {-300, 200}
-    },
-    hard = {
-        [1328892776] = {-2284, 1192},
-        [964111671] =  {-584, 342},
-        [1131632450] = {-406, 253},
-        [1967927346] = {-578, 339},
-        [1182286714] = {-220, 160}
-    }
+-- Target Short Names
+local targetShortNames = {
+    "La Dernière Débauche",
+    "Hare Oneself Think",
+    "The Downfall of Rome",
+    "Brother Brother",
+    "A Cast of Characters",
+    "Gone To Seed",
+    "True Love",
+    "Breathless",
+    "Consumato",
+    "I Hear Voices",
+    "Winter, Nowhere",
+    "Pearl Necklace",
+    "Chat on Fruit",
+    "Pumpkin",
+    "Twindifference",
+    "Stacks Study V",
+    "I, Fruit",
+    "To Beat About Bush",
+    "In Excess Success",
+    "Juiced",
+    "Winding Road Home",
+    "Teckels",
+    "Trust",
+    "Until Death",
+    "What Are Melons?",
+    "Outcome Endeavour",
+    "Mi O Melee"
 }
 
-SN_Apartment:add_separator()
-SN_Apartment:add_text("Works only for you. Allows you to get 12 millions bonus for The Pacific Standard Job on hard difficulty.\nEnable before starting the heist. Has a cooldown.")
+local targetBasePayouts = {
+    481250, 304500, 305000, 305500, 306000, 306500, 307000,
+    307500, 308000, 308500, 309000, 309500, 310000, 310500,
+    311000, 311500, 312000, 312500, 313000, 313500, 314000,
+    314500, 315000, 315500, 316000, 365000, 317000
+}
 
-local apartmentBonus = SN_Apartment:add_checkbox("12mil Bonus")
-local previousState = false
+local k26Targets = {}
+for i = 1, 27 do
+    k26Targets[i] = {name = targetShortNames[i], id = i - 1, payout = targetBasePayouts[i], index = i}
+end
 
-script.register_looped("SN_Apartment_Bonus", function(script)
-    script:yield()
-    local currentState = apartmentBonus:is_enabled()
-    if currentState ~= previousState then
-        stats.set_int(joaat("MPPLY_HEISTFLOWORDERPROGRESS"), currentState and 268435455 or 134217727)
-        stats.set_bool(joaat("MPPLY_AWD_HST_ORDER"), not currentState)
-        stats.set_int(joaat("MPPLY_HEISTTEAMPROGRESSBITSET"), currentState and 268435455 or 134217727)
-        stats.set_bool(joaat("MPPLY_AWD_HST_SAME_TEAM"), not currentState)
-        stats.set_int(joaat("MPPLY_HEISTNODEATHPROGREITSET"), currentState and 268435455 or 134217727)
-        stats.set_bool(joaat("MPPLY_AWD_HST_ULT_CHAL"), not currentState)
-        gui.show_message("12mil Bonus", currentState and "Bonus should've been applied. Don't forget about difficulty" or "Bonus should've been unapplied")
-        previousState = currentState
+local targetNames = {}
+for _, target in ipairs(k26Targets) do
+    table.insert(targetNames, target.name)
+end
+
+local k26_heist_target = 0
+local selectedPayoutTarget = 0
+local autoHacks = false
+local dataCrackTriggered = false
+local fingerprintTriggered = false
+local vaultDoorTriggered = false
+local heistWasActive = false
+local bagSizeValue = 100
+local weeklyMultiplierValue = 4.0
+local livesValue = 3
+
+-- Helper Functions
+local function isKortzHeistActive()
+    return SCRIPT.GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller_v3")) > 0
+end
+
+local function setK26Bit(stat, bit, name)
+    local current = stats.get_int(MPX() .. stat)
+    stats.set_int(MPX() .. stat, current | bit)
+    gui.show_message("Kortz Center Heist", name .. " enabled")
+end
+
+local function getGlassProgress(i)
+    return locals.get_float("fm_mission_controller_v3", KCCGL_BASE + (i * 13) + KCCGL_OFFSET)
+end
+
+local function getCurrentPayout(index)
+    return globals.get_int(KCPAYOUT_BASE + index)
+end
+
+local function setPayout(index, value)
+    globals.set_int(KCPAYOUT_BASE + index, value)
+end
+
+-- Kortz Center UI
+SN_Kortz:add_imgui(function()
+    local heistActive = isKortzHeistActive()
+    if heistActive then
+        ImGui.TextColored(0.0, 1.0, 0.0, 1.0, "● HEIST IS ACTIVE")
+    else
+        ImGui.TextColored(1.0, 0.5, 0.0, 1.0, "● HEIST NOT ACTIVE")
     end
-    script:sleep(100)
-end)
-
-SN_Apartment:add_separator()
-local difficultyKeys = {"easy", "normal", "hard"}
-SN_Apartment:add_button("3mil Payout", function()
-    script.run_in_fiber(function(ap)
-        local key = globals.get_int(ACDg + (PLAYER.PLAYER_ID() * 77) + 24 + 2)
-        local difficultyG = globals.get_int(AHDg)
-        local difficulty = difficultyKeys[difficultyG + 1]
-        local cuts = heistCuts[difficulty][key]
-        if cuts then
-            globals.set_int(ACg1, 100 - (cuts[2] * locals.get_int("fmmc_launcher", HGGs1)))
-            globals.set_int(ACg2, cuts[2])
-            if key ~= 1328892776 then
-                globals.set_int(ACg3, cuts[2])
-                globals.set_int(ACg4, cuts[2])
-            end
-            PAD.SET_CONTROL_VALUE_NEXT_FRAME(2, 201, 1)
-            ap:sleep(1000)
-            PAD.SET_CONTROL_VALUE_NEXT_FRAME(2, 202, 1)
-            ap:sleep(1000)
-            globals.set_int(ACg5, -1 * (-100 + cuts[1]) / 2)
-            gui.show_message("Apartment Heist", "Cuts should've been applied")
+    ImGui.Separator()
+    
+    -- Primary Target
+    ImGui.TextColored(1.0, 0.8, 0.2, 1.0, "PRIMARY TARGET")
+    local nIndex, changed = ImGui.Combo("##PrimaryTarget", k26_heist_target, targetShortNames, #targetShortNames)
+    if changed then
+        k26_heist_target = nIndex
+        stats.set_int(MPX() .. "K26_HEIST_TARGET", k26_heist_target)
+        gui.show_message("Kortz Center Heist", "Target set to: " .. targetShortNames[k26_heist_target + 1])
+    end
+    ImGui.Separator()
+    
+    -- Payout Settings
+    ImGui.TextColored(1.0, 0.8, 0.2, 1.0, "PAYOUT SETTINGS")
+    local targetIdx = selectedPayoutTarget + 1
+    local newSelection, changed2 = ImGui.Combo("Select Target to Edit", selectedPayoutTarget, targetShortNames, #targetShortNames)
+    if changed2 then
+        selectedPayoutTarget = newSelection
+        targetIdx = selectedPayoutTarget + 1
+    end
+    
+    if targetIdx >= 1 and targetIdx <= 27 then
+        ImGui.Text("Target: " .. targetShortNames[targetIdx])
+        ImGui.Text("Base Payout: $" .. string.format("%.0f", targetBasePayouts[targetIdx]))
+        local currentPayout = getCurrentPayout(targetIdx)
+        if currentPayout > 0 then
+            ImGui.TextColored(0.0, 1.0, 0.0, 1.0, "Current Payout: $" .. string.format("%.0f", currentPayout))
         end
-    end)
-end)
-SN_Apartment:add_separator()
-
-
-local apartCut1 = 0
-local apartCut2 = 0
-local apartCut3 = 0
-local apartCut4 = 0
-SN_Apartment:add_imgui(
-    function ()
-        PAD.DISABLE_CONTROL_ACTION(2, 237, true)
-        ImGui.Text("Custom Cuts:")
-        ImGui.SetNextItemWidth(150)
-        apartCut1 = ImGui.InputInt("Cut 1", apartCut1)
+        
+        if ImGui.Button("2x") then
+            setPayout(targetIdx, targetBasePayouts[targetIdx] * 2)
+            gui.show_message("Kortz Center", "Payout set to 2x")
+        end
         ImGui.SameLine()
-        ImGui.SetNextItemWidth(150)
-        apartCut2 = ImGui.InputInt("Cut 2", apartCut2)
-        ImGui.SetNextItemWidth(150)
-        apartCut3 = ImGui.InputInt("Cut 3", apartCut3)
+        if ImGui.Button("3x") then
+            setPayout(targetIdx, targetBasePayouts[targetIdx] * 3)
+            gui.show_message("Kortz Center", "Payout set to 3x")
+        end
         ImGui.SameLine()
-        ImGui.SetNextItemWidth(150)
-        apartCut4 = ImGui.InputInt("Cut 4", apartCut4)
-        if ImGui.Button("Set Cuts") then
-            script.run_in_fiber(function(ccut)
-                local heistType = locals.get_int("fmmc_launcher", HGGs1)
-                local multiplier = (heistType == 1328892776) and 2 or 4
-                globals.set_int(ACg1, 100 - (apartCut1 * multiplier))
-                globals.set_int(ACg2, apartCut2)
-                globals.set_int(ACg3, apartCut3)
-                globals.set_int(ACg4, apartCut4)
-                PAD.SET_CONTROL_VALUE_NEXT_FRAME(2, 201, 1)
-                ccut:sleep(1000)
-                PAD.SET_CONTROL_VALUE_NEXT_FRAME(2, 202, 1)
-                ccut:sleep(1000)
-                globals.set_int(ACg5, -1 * (-100 + globals.get_int(ACg1)) / multiplier)
-                gui.show_message("Apartment Heist", "Cuts should've been applied")
-            end)
+        if ImGui.Button("5x") then
+            setPayout(targetIdx, targetBasePayouts[targetIdx] * 5)
+            gui.show_message("Kortz Center", "Payout set to 5x")
+        end
+        ImGui.SameLine()
+        if ImGui.Button("Reset") then
+            setPayout(targetIdx, targetBasePayouts[targetIdx])
+            gui.show_message("Kortz Center", "Payout reset to default")
         end
     end
-)
-SN_Apartment:add_separator()
-SN_Apartment:add_text("Extras")
-SN_Apartment:add_button("Bypass Fleeca Hack", function()
-    locals.set_int("fm_mission_controller", AFHl, 7)
-    gui.show_message("Apartment Heist", "Hacking process should've been skipped")
-end)
-SN_Apartment:add_sameline()
-SN_Apartment:add_button("Bypass Fleeca Drill", function()
-    locals.set_float("fm_mission_controller", AFDl, 100)
-    gui.show_message("Apartment Heist", "Drilling process should've been skipped")
-end)
-SN_Apartment:add_sameline()
-SN_Apartment:add_button("Bypass Pacific Hack", function()
-    locals.set_int("fm_mission_controller", AFPl, 9)
-    gui.show_message("Apartment Heist", "Hacking process should've been skipped")
-end)
-SN_Apartment:add_sameline()
-SN_Apartment:add_button("Skip Checkpoint", function()
-    locals.set_int("fm_mission_controller", AHSo, locals.get_int("fm_mission_controller", AHSo) | (1 << 17))
-	gui.show_message("Apartment Heist", "Checkpoint should've been skipped")
-end)
-SN_Apartment:add_sameline()
-SN_Apartment:add_button("Unlock All Jobs", function()
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_0", globals.get_int(AUAJg1))
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_0_L", 5)
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_1", globals.get_int(AUAJg2))
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_1_L", 5)
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_2", globals.get_int(AUAJg3))
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_2_L", 5)
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_3", globals.get_int(AUAJg4))
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_3_L", 5)
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_4", globals.get_int(AUAJg5))
-    stats.set_int(MPX() .. "HEIST_SAVED_STRAND_4_L", 5)
-	gui.show_message("Apartment Heist", "All jobs should've been unlocked. Don't forget to restart the game")
-end)
-SN_Apartment:add_button("Solo Launch",
-function()
-	if locals.get_int("fmmc_launcher", HGGs1) ~= nil then
-		if locals.get_int("fmmc_launcher", HGGs1) ~= 0 then
-			if locals.get_int("fmmc_launcher", HGGs1) > 1 then
-					locals.set_int("fmmc_launcher", HGGs2, 1)
-                    globals.set_int(794954 + 4 + 1 + (locals.get_int("fmmc_launcher", HGGs1) * 95) + 75, 1)
-			end
-			globals.set_int(HGLs1, 1)
-            globals.set_int(HGLs2, 1)
-            globals.set_int(HGLs3, 1)
-            globals.set_int(HGLs4, 0)
-		end
-	end
-end)
-SN_Apartment:add_sameline()
-SN_Apartment:add_button("Skip Cutscene", SkipCutscene)
-SN_Apartment:add_sameline()
-SN_Apartment:add_button("Force Ready", function()
-    script.run_in_fiber(function(script)
-        network.force_script_host("fm_mission_controller")
-        script:sleep(1000)
-        for i = 1, 4 do
-            globals.set_int(2658291 + 1 + ((i - 1) * 468) + 270, 6)
+    ImGui.Separator()
+    
+    -- Quick Actions
+    ImGui.TextColored(1.0, 0.8, 0.2, 1.0, "QUICK ACTIONS")
+    if ImGui.Button("2x All Targets") then
+        for i = 1, 27 do
+            setPayout(i, targetBasePayouts[i] * 2)
         end
-        gui.show_message("Apartment Heist", "Everyone should've been forced ready")
-    end)
-end)
-SN_Apartment:add_sameline()
-SN_Apartment:add_button("Instant Finish", function()
-    script.run_in_fiber(function(script)
-        network.force_script_host("fm_mission_controller")
-        script:sleep(1000)
-        local heistType = globals.get_int(ACDg + (PLAYER.PLAYER_ID() * 77) + 24 + 2)
-        if heistType == 1182286714 then
-            locals.set_int("fm_mission_controller", AIFl2, 5)
-            locals.set_int("fm_mission_controller", AIFl3, 80)
-            locals.set_int("fm_mission_controller", AIFl4, 10000000)
-            locals.set_int("fm_mission_controller", AIFl5, 99999)
-            locals.set_int("fm_mission_controller", AIFl6, 99999)
+        gui.show_message("Kortz Center", "All targets set to 2x!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("3x All Targets") then
+        for i = 1, 27 do
+            setPayout(i, targetBasePayouts[i] * 3)
+        end
+        gui.show_message("Kortz Center", "All targets set to 3x!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Reset All Payouts") then
+        for i = 1, 27 do
+            setPayout(i, targetBasePayouts[i])
+        end
+        gui.show_message("Kortz Center", "All payouts reset!")
+    end
+    ImGui.Separator()
+    
+    -- General Settings
+    ImGui.TextColored(1.0, 0.8, 0.2, 1.0, "GENERAL SETTINGS")
+    
+    bagSizeValue, _ = ImGui.InputInt("Bag Size", bagSizeValue)
+    if ImGui.Button("Set Bag Size") then
+        if bagSizeValue < 1 then
+            gui.show_message("Kortz Center", "Bag size must be at least 1!")
         else
-            locals.set_int("fm_mission_controller", AIFl1, 12)
-            locals.set_int("fm_mission_controller", AIFl4, 99999)
-            locals.set_int("fm_mission_controller", AIFl5, 99999)
-            locals.set_int("fm_mission_controller", AIFl6, 99999)
+            globals.set_int(KCBGL, bagSizeValue)
+            gui.show_message("Kortz Center", "Bag capacity set to " .. bagSizeValue)
         end
-    end)
+    end
+    
+    livesValue, _ = ImGui.InputInt("Team Lives", livesValue)
+    if ImGui.Button("Set Lives") then
+        if livesValue < 1 then
+            gui.show_message("Kortz Center", "Lives must be at least 1!")
+        else
+            locals.set_int("fm_mission_controller_v3", KCLIVESL, livesValue)
+            gui.show_message("Kortz Center", "Team lives set to " .. livesValue)
+        end
+    end
+    
+    if ImGui.Button("Skip Cooldown") then
+        globals.set_int(KCCDG, 0)
+        globals.set_int(KCCD2G, 0)
+        gui.show_message("Kortz Center", "Cooldowns reset!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Reload Board") then
+        locals.set_int("kortz_planning", KCBRL, 2)
+        gui.show_message("Kortz Center", "Planning board reloaded!")
+    end
+    ImGui.Separator()
+    
+    -- Preps
+    ImGui.TextColored(1.0, 0.8, 0.2, 1.0, "PREPS")
+    if ImGui.Button("Complete All Preps") then
+        stats.set_int(MPX() .. "K26_GENERAL_BS", -1)
+        stats.set_int(MPX() .. "K26_ROBBERY_PROG", 65535)
+        stats.set_int(MPX() .. "K26_SCOPING_BS", -1)
+        stats.set_int(MPX() .. "K26_POI_BS", -1)
+        gui.show_message("Kortz Center", "All preps completed!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Reset All Preps") then
+        stats.set_int(MPX() .. "K26_GENERAL_BS", 0)
+        stats.set_int(MPX() .. "K26_ROBBERY_PROG", 0)
+        stats.set_int(MPX() .. "K26_SCOPING_BS", 0)
+        stats.set_int(MPX() .. "K26_POI_BS", 0)
+        gui.show_message("Kortz Center", "All preps reset!")
+    end
+    
+    if ImGui.Button("Scope Out Kortz Center") then
+        stats.set_int(MPX() .. "K26_ROBBERY_PROG", stats.get_int(MPX() .. "K26_ROBBERY_PROG") | 1)
+        gui.show_message("Kortz Center", "Kortz Center scoped out!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Alpha Mail Disguise") then
+        stats.set_int(MPX() .. "K26_ROBBERY_PROG", stats.get_int(MPX() .. "K26_ROBBERY_PROG") | 2)
+        gui.show_message("Kortz Center", "Alpha Mail Disguise acquired!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Hazmat Suit") then
+        stats.set_int(MPX() .. "K26_ROBBERY_PROG", stats.get_int(MPX() .. "K26_ROBBERY_PROG") | 4)
+        gui.show_message("Kortz Center", "Hazmat Suit acquired!")
+    end
+    
+    if ImGui.Button("Staff Key Card") then
+        stats.set_int(MPX() .. "K26_ROBBERY_PROG", stats.get_int(MPX() .. "K26_ROBBERY_PROG") | 8)
+        gui.show_message("Kortz Center", "Staff Key Card acquired!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Tactical Equipment") then
+        stats.set_int(MPX() .. "K26_ROBBERY_PROG", stats.get_int(MPX() .. "K26_ROBBERY_PROG") | 16)
+        gui.show_message("Kortz Center", "Tactical Equipment acquired!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Hacking Device") then
+        stats.set_int(MPX() .. "K26_ROBBERY_PROG", stats.get_int(MPX() .. "K26_ROBBERY_PROG") | 32)
+        gui.show_message("Kortz Center", "Hacking Device acquired!")
+    end
+    
+    if ImGui.Button("Access Code") then
+        stats.set_int(MPX() .. "K26_ROBBERY_PROG", stats.get_int(MPX() .. "K26_ROBBERY_PROG") | 64)
+        gui.show_message("Kortz Center", "Access Code acquired!")
+    end
+    ImGui.Separator()
+    
+    -- Optional Preps
+    ImGui.TextColored(1.0, 0.8, 0.2, 1.0, "OPTIONAL PREPS")
+    if ImGui.Button("Scope Points of Interest") then
+        stats.set_int(MPX() .. "K26_POI_BS", -1)
+        gui.show_message("Kortz Center", "Points of Interest scoped!")
+    end
+    
+    if ImGui.Button("Guard Routes") then
+        setK26Bit("K26_GENERAL_BS", 32, "Guard Routes")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Glass Cutter") then
+        setK26Bit("K26_GENERAL_BS", 64, "Glass Cutter")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Power Drills") then
+        setK26Bit("K26_GENERAL_BS", 128, "Power Drills")
+    end
+    
+    if ImGui.Button("EMP Charges") then
+        setK26Bit("K26_GENERAL_BS", 256, "EMP Charges")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Street Loadout") then
+        setK26Bit("K26_GENERAL_BS", 512, "Street Loadout")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Security Loadout") then
+        setK26Bit("K26_GENERAL_BS", 1024, "Security Loadout")
+    end
+    
+    if ImGui.Button("Military Loadout") then
+        setK26Bit("K26_GENERAL_BS", 2048, "Military Loadout")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Manhole Key") then
+        setK26Bit("K26_GENERAL_BS", 134217728, "Manhole Key")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Weak Guards") then
+        setK26Bit("K26_GENERAL_BS", -2147483648, "Weak Guards")
+    end
+    ImGui.Separator()
+    
+    -- Secondary Targets
+    ImGui.TextColored(1.0, 0.8, 0.2, 1.0, "SECONDARY TARGETS")
+    if ImGui.Button("Scope All Secondary Targets") then
+        stats.set_int(MPX() .. "K26_SCOPING_BS", -1)
+        gui.show_message("Kortz Center", "All secondary targets scoped!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Enable Solo Secondary Targets") then
+        local target_indices = {0, 1, 5, 6, 7, 20, 21}
+        for _, i in ipairs(target_indices) do
+            local base = KCSECONDARY_BASE + (i * 333)
+            globals.set_int(base + 68, 0)
+            globals.set_int(base + 143, 0)
+        end
+        gui.show_message("Kortz Center", "Solo secondary targets enabled!")
+    end
+    ImGui.Separator()
+    
+    -- Extras
+    ImGui.TextColored(1.0, 0.8, 0.2, 1.0, "EXTRAS")
+    if ImGui.Button("Skip Cutscene") then
+        SkipCutscene()
+        gui.show_message("Kortz Center", "Cutscene skipped!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Instant Finish") then
+        locals.set_int("fm_mission_controller_v3", KCIf1, 51338752)
+        locals.set_int("fm_mission_controller_v3", KCIf2, 50)
+        gui.show_message("Kortz Center", "Heist finished!")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Skip Data Crack") then
+        if isKortzHeistActive() then
+            for b = 0, 7 do
+                locals.set_int("fm_mission_controller_v3", KCDCL + 1 + (b * 4), 1)
+            end
+            locals.set_int("fm_mission_controller_v3", KCDCL, 1)
+            gui.show_message("Kortz Center", "Data crack bypassed!")
+        else
+            gui.show_message("Kortz Center", "Heist not active!")
+        end
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Skip Fingerprint") then
+        if isKortzHeistActive() then
+            locals.set_int("fm_mission_controller_v3", KCFHL, 5)
+            gui.show_message("Kortz Center", "Fingerprint bypassed!")
+        else
+            gui.show_message("Kortz Center", "Heist not active!")
+        end
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Skip Vault Door") then
+        if isKortzHeistActive() then
+            locals.set_int("fm_mission_controller_v3", KCVLL, 5)
+            gui.show_message("Kortz Center", "Vault door bypassed!")
+        else
+            gui.show_message("Kortz Center", "Heist not active!")
+        end
+    end
+    ImGui.Separator()
+    
+    -- Glass Case Status
+    ImGui.TextColored(1.0, 0.8, 0.2, 1.0, "GLASS CASE STATUS")
+    local glassCaseNames = {
+        [0] = "Venus d'Algernon",
+        [1] = "Gemstone",
+        [2] = "Horse",
+        [3] = "Coquard Carcanet",
+        [4] = "Memento Non Mori"
+    }
+    local glassCaseTypes = {
+        [0] = "Tall Glass Case",
+        [1] = "Tall Glass Case",
+        [2] = "Horizontal Glass Case",
+        [3] = "Horizontal Glass Case",
+        [4] = "Horizontal Glass Case"
+    }
+    for i = 0, 4 do
+        local progress = getGlassProgress(i)
+        local status, r, g, b = "Available", 1.0, 0.0, 0.0
+        if progress >= 100.0 then
+            status, r, g, b = "Cut", 0.0, 1.0, 0.0
+        elseif progress == 0 then
+            status, r, g, b = "Empty", 0.5, 0.5, 0.5
+        end
+        ImGui.TextColored(r, g, b, 1.0, glassCaseTypes[i] .. ": " .. glassCaseNames[i] .. " - " .. status .. " (" .. string.format("%.1f", progress) .. "%)")
+    end
+    
+    if ImGui.Button("Cut All Glass") then
+        if isKortzHeistActive() then
+            for i = 0, 4 do
+                locals.set_float("fm_mission_controller_v3", KCCGL_BASE + (i * 13) + KCCGL_OFFSET, 100.0)
+            end
+            gui.show_message("Kortz Center", "All glass cases cut!")
+        else
+            gui.show_message("Kortz Center", "Heist not active!")
+        end
+    end
+    
+    if ImGui.Button("Take Primary Target") then
+        if isKortzHeistActive() then
+            locals.set_int("fm_mission_controller_v3", KCPT_STATE, 15)
+            locals.set_int("fm_mission_controller_v3", KCPT_STATE, 17)
+            gui.show_message("Kortz Center", "Primary target acquired!")
+        else
+            gui.show_message("Kortz Center", "Heist not active!")
+        end
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Take Secondary Target") then
+        if isKortzHeistActive() then
+            locals.set_int("fm_mission_controller_v3", KCST_STATE, 3)
+            gui.show_message("Kortz Center", "Secondary target secured!")
+        else
+            gui.show_message("Kortz Center", "Heist not active!")
+        end
+    end
 end)
-SN_Apartment:add_text("")
-SN_Apartment:add_text("Note: After Clicking Unlock All Heists, restart the game")
+
+-- Flash Ops
+SN_Flash_Ops = SN_Heist_Editor:add_tab("Flash Ops ")
+
+-- Agency tab
+local AgencyContracts = {
+    {name = "None", index = 3},
+    {name = "Nightclub", index = 4},
+    {name = "Marina", index = 12},
+    {name = "Nightlife Leak", index = 28},
+    {name = "Country Club", index = 60},
+    {name = "Guest List", index = 123},
+    {name = "High Society Leak", index = 254},
+    {name = "Davis", index = 508},
+    {name = "Ballas", index = 1020},
+    {name = "South Central Leak", index = 2044},
+    {name = "Studio Time", index = 2045},
+    {name = "Don't Fuck With Dre", index = 4095}
+}
+
+local contractNames = {}
+for i, contract in ipairs(AgencyContracts) do
+    table.insert(contractNames, contract.name)
+end
+local sContract = 0
+local SN_Agency = SN_Flash_Ops:add_tab("Agency ")
+SN_Agency:add_text("Money")
+local agencySafe = SN_Agency:add_checkbox("Agency Safe Loop")
+script.register_looped("agencyloop", function(script)
+    script:yield()
+    if agencySafe:is_enabled() == true then
+        gui.show_message("Business Manager", "Supplying Agency Safe with money")
+        STATS.STAT_SET_INT(joaat(MPX() .. "FIXER_COUNT"), 500, true)
+        STATS.STAT_SET_INT(joaat(MPX() .. "FIXER_PASSIVE_PAY_TIME_LEFT"), -1, true)
+        script:sleep(500)
+    end
+end)
+SN_Agency:add_separator()
+SN_Agency:add_imgui(function()
+    ImGui.Text("Contract:")
+    ImGui.SetNextItemWidth(200)
+    local nSelected, clicked = ImGui.Combo("##AgencyContract", sContract, contractNames, #contractNames)
+    if clicked then
+        sContract = nSelected
+        local contractD = AgencyContracts[sContract + 1]
+        local contractId = contractD.index
+        
+        stats.set_int(MPX() .. "FIXER_STORY_BS", contractId)
+        if contractId < 18 then
+            stats.set_int(MPX() .. "FIXER_STORY_STRAND", 0)
+        elseif contractId < 128 then
+            stats.set_int(MPX() .. "FIXER_STORY_STRAND", 1)
+        elseif contractId < 2044 then
+            stats.set_int(MPX() .. "FIXER_STORY_STRAND", 2)
+        else
+            stats.set_int(MPX() .. "FIXER_STORY_STRAND", -1)
+        end
+    end
+end)
+
+SN_Agency:add_button("Complete Preps", function()
+    stats.set_int(MPX() .. "FIXER_GENERAL_BS", -1)
+    stats.set_int(MPX() .. "FIXER_COMPLETED_BS", -1)
+    stats.set_int(MPX() .. "FIXER_STORY_COOLDOWN", -1)
+	gui.show_message("Agency", "Preps should've been completed")
+end)
+SN_Agency:add_separator()
+SN_Agency:add_text("Payouts:")
+local agencyPayoutValue = 0
+SN_Agency:add_imgui(function()
+    agencyPayoutValue, _ = ImGui.InputInt("##AgencyPayout", agencyPayoutValue)
+end)
+SN_Agency:add_button("Max", function()
+    agencyPayoutValue = 2500000
+    gui.show_message("Agency", "Payout should've been maximized. Don't forget to apply")
+end)
+SN_Agency:add_button("Apply Payout", function()
+    local payout = agencyPayoutValue
+    tunables.set_int("FIXER_FINALE_LEADER_CASH_REWARD", payout)
+    gui.show_message("Agency", "Payout should've been applied")
+end)
+SN_Agency:add_text("Use 'Apply Payout' after you can see the minimap.")
+SN_Agency:add_separator()
+SN_Agency:add_button("Instant Finish", function()
+    locals.set_int("fm_mission_controller_2020", AGFl1, 51338752)
+    locals.set_int("fm_mission_controller_2020", AGFl2, 50)
+	gui.show_message("Agency", "Heist should've been finished")
+end)
+SN_Agency:add_sameline()
+SN_Agency:add_button("Skip Cutscene", SkipCutscene)
+SN_Agency:add_sameline()
+SN_Agency:add_button("Kill Cooldowns", function()
+    tunables.set_int("FIXER_STORY_COOLDOWN_POSIX", 0)
+    tunables.set_int("FIXER_SECURITY_CONTRACT_COOLDOWN_TIME", 0)
+    tunables.set_int("REQUEST_FRANKLIN_PAYPHONE_HIT_COOLDOWN", 0)
+    stats.set_int(MPX() .. "FIXER_STORY_COOLDOWN", -1)
+    gui.show_message("Agency", "Cooldowns should've been killed")
+end)
+SN_Agency:add_separator()
+SN_Agency:add_text("After All choices and pressing Complete Preps wait for sometime")
+
+-- Autoshop tab
+local SN_Autoshop = SN_Flash_Ops:add_tab("Autoshop ")
+local AutoShopContracts = {
+    { name = "None", index = -1 },
+    { name = "Union Deposit.", index = 0 },
+    { name = "Superdol. Deal", index = 1 },
+    { name = "Bank Contract", index = 2 },
+    { name = "ECU Job", index = 3 },
+    { name = "Prison Contrac.", index = 4 },
+    { name = "Agency Deal", index = 5 },
+    { name = "Lost Contract", index = 6 },
+    { name = "Data Contract", index = 7 }
+}
+
+local autoSelectedIndex = 0
+SN_Autoshop:add_imgui(function()
+    ImGui.Text("Contract:")
+    autoSelectedIndex = ImGui.Combo("##AutoContract", autoSelectedIndex, { AutoShopContracts[1].name, AutoShopContracts[2].name, AutoShopContracts[3].name, AutoShopContracts[4].name, AutoShopContracts[5].name, AutoShopContracts[6].name, AutoShopContracts[7].name, AutoShopContracts[8].name, AutoShopContracts[9].name }, 9)
+end)
+SN_Autoshop:add_button("Apply & Complete Preps", function()
+    local contract = AutoShopContracts[autoSelectedIndex + 1].index
+    stats.set_int(MPX() .. "TUNER_CURRENT", contract)
+    stats.set_int(MPX() .. "TUNER_GEN_BS", (contract == 1 and 4351 or 12543))
+    locals.set_int("tuner_planning", ASRBl, 2)
+    gui.show_message("Autoshop", "Preps should've been completed")
+end)
+SN_Autoshop:add_button("Reset Preps", function()
+    stats.set_int(MPX() .. "TUNER_GEN_BS", 12467)
+    locals.set_int("tuner_planning", ASRBl, 2)
+    gui.show_message("Autoshop", "Preps should've been reset")
+end)
+SN_Autoshop:add_button("Redraw Board", function()
+    locals.set_int("tuner_planning", ASRBl, 2)
+    gui.show_message("Autoshop", "Board should've been redrawn")
+end)
+SN_Autoshop:add_separator()
+SN_Autoshop:add_text("Payouts:")
+local autoPayoutValue = 0
+SN_Autoshop:add_imgui(function()
+    autoPayoutValue, _ = ImGui.InputInt("##AutoPayout", autoPayoutValue)
+end)
+SN_Autoshop:add_button("Max", function()
+    autoPayoutValue = 2000000
+    gui.show_message("Autoshop", "Payout should've been maximized. Don't forget to apply")
+end)
+SN_Autoshop:add_button("Apply Payout", function()
+    local payout = autoPayoutValue
+    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD0", payout)
+    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD1", payout)
+    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD2", payout)
+    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD3", payout)
+    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD4", payout)
+    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD5", payout)
+    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD6", payout)
+    tunables.set_int("TUNER_ROBBERY_LEADER_CASH_REWARD7", payout)
+    tunables.set_float("TUNER_ROBBERY_CONTACT_FEE", 0.0)
+    gui.show_message("Autoshop", "Payout should've been applied")
+end)
+SN_Autoshop:add_text("Use 'Apply Payout' after you can see the minimap.")
+SN_Autoshop:add_separator()
+SN_Autoshop:add_text("Extras")
+SN_Autoshop:add_button("Instant Finish", function ()
+	locals.set_int("fm_mission_controller_2020", ASIFl1, 51338977)
+	locals.set_int("fm_mission_controller_2020", ASIFl2, 101)
+	gui.show_message("Autoshop", "Heist should've been finished")
+end)
+SN_Autoshop:add_separator()
+SN_Autoshop:add_text("Team Lives:")
+local livesValueAuto = 3
+SN_Autoshop:add_imgui(function()
+    livesValueAuto, _ = ImGui.InputInt("##AutoLives", livesValueAuto)
+    if ImGui.Button("Set Lives##Auto") then
+        if livesValueAuto < 1 then
+            gui.show_message("Autoshop", "Lives must be at least 1!")
+        else
+            gui.show_message("Autoshop", "Team lives set to " .. livesValueAuto)
+        end
+    end
+end)
+SN_Autoshop:add_sameline()
+SN_Autoshop:add_button("Skip Cutscene", SkipCutscene)
+
+-- Salvage Yard --
+local SN_Salvage = SN_Flash_Ops:add_tab("Salvage Yard ")
+local SalvageYard = {
+    robberies = {
+        { name = "Cargo Ship", index = 0 },
+        { name = "Gangbanger", index = 1 },
+        { name = "Duggan", index = 2 },
+        { name = "Podium", index = 3 },
+        { name = "McTony", index = 4 }
+    },
+    vehicles = {
+        { name = "LM87", index = 1 },
+        { name = "Cinquemila", index = 2 },
+        { name = "Autarch", index = 3 },
+        { name = "Tigon", index = 4 },
+        { name = "Champion", index = 5 },
+        { name = "10F", index = 6 },
+        { name = "SM722", index = 7 },
+        { name = "Omnis e-GT", index = 8 },
+        { name = "Growler", index = 9 },
+        { name = "Deity", index = 10 },
+        { name = "Itali RSX", index = 11 },
+        { name = "Coquette D10", index = 12 },
+        { name = "Jubilee", index = 13 },
+        { name = "Astron", index = 14 },
+        { name = "Comet S2 Cabr.", index = 15 },
+        { name = "Torero", index = 16 },
+        { name = "Cheetah Classic", index = 17 },
+        { name = "Turismo Classic", index = 18 },
+        { name = "Infernus Classic", index = 19 },
+        { name = "Stafford", index = 20 },
+        { name = "GT500", index = 21 },
+        { name = "Viseris", index = 22 },
+        { name = "Mamba", index = 23 },
+        { name = "Coquette Black.", index = 24 },
+        { name = "Stinger GT", index = 25 },
+        { name = "Z-Type", index = 26 },
+        { name = "Broadway", index = 27 },
+        { name = "Vigero ZX", index = 28 },
+        { name = "Buffalo STX", index = 29 },
+        { name = "Ruston", index = 30 },
+        { name = "Gauntl. Hellfire", index = 31 },
+        { name = "Dominator GTT", index = 32 },
+        { name = "Roosevelt Valor", index = 33 },
+        { name = "Swinger", index = 34 },
+        { name = "Stirling GT", index = 35 },
+        { name = "Omnis", index = 36 },
+        { name = "Tropos Rallye", index = 37 },
+        { name = "Jugular", index = 38 },
+        { name = "Patriot Mil-Spec", index = 39 },
+        { name = "Toros", index = 40 },
+        { name = "Caracara 4x4", index = 41 },
+        { name = "Sentinel Classic", index = 42 },
+        { name = "Weevil", index = 43 },
+        { name = "Blista Kanjo", index = 44 },
+        { name = "Eudora", index = 45 },
+        { name = "Kamacho", index = 46 },
+        { name = "Hellion", index = 47 },
+        { name = "Ellie", index = 48 },
+        { name = "Hermes", index = 49 },
+        { name = "Hustler", index = 50 },
+        { name = "Turismo Om.", index = 51 },
+        { name = "Buffalo EVX", index = 52 },
+        { name = "Itali GTO St.", index = 53 },
+        { name = "Virtue", index = 54 },
+        { name = "Ignus", index = 55 },
+        { name = "Zentorno", index = 56 },
+        { name = "Neon", index = 57 },
+        { name = "Furia", index = 58 },
+        { name = "Zorrusso", index = 59 },
+        { name = "Thrax", index = 60 },
+        { name = "Vagner", index = 61 },
+        { name = "Panthere", index = 62 },
+        { name = "Itali GTO", index = 63 },
+        { name = "S80RR", index = 64 },
+        { name = "Tyrant", index = 65 },
+        { name = "Entity MT", index = 66 },
+        { name = "Torero XO", index = 67 },
+        { name = "Neo", index = 68 },
+        { name = "Corsita", index = 69 },
+        { name = "Paragon R", index = 70 },
+        { name = "Franken Stange", index = 71 },
+        { name = "Comet Safari", index = 72 },
+        { name = "FR36", index = 73 },
+        { name = "Hotring Everon", index = 74 },
+        { name = "Komoda", index = 75 },
+        { name = "Tailgater S", index = 76 },
+        { name = "Jester Classic", index = 77 },
+        { name = "Jester RR", index = 78 },
+        { name = "Euros", index = 79 },
+        { name = "ZR350", index = 80 },
+        { name = "Cypher", index = 81 },
+        { name = "Dominator ASP", index = 82 },
+        { name = "Baller ST-D", index = 83 },
+        { name = "Casco", index = 84 },
+        { name = "Drift Yosemite", index = 85 },
+        { name = "Everon", index = 86 },
+        { name = "Penumbra FF", index = 87 },
+        { name = "V-STR", index = 88 },
+        { name = "Dominator GT", index = 89 },
+        { name = "Schlagen GT", index = 90 },
+        { name = "Cavalcade XL", index = 91 },
+        { name = "Clique", index = 92 },
+        { name = "Boor", index = 93 },
+        { name = "Sugoi", index = 94 },
+        { name = "Greenwood", index = 95 },
+        { name = "Brigham", index = 96 },
+        { name = "Issi Rally", index = 97 },
+        { name = "Seminole Fr.", index = 98 },
+        { name = "Kanjo SJ", index = 99  },
+        { name = "Previon", index = 100 }
+    },
+    modifications = {
+        { name = "Version 1", index = 0 },
+        { name = "Version 2", index = 1 },
+        { name = "Version 3", index = 2 },
+        { name = "Version 4", index = 3 },
+        { name = "Version 5", index = 4 },
+    },
+    keeps = {
+        { name = "Can't Claim", index = 0 },
+        { name = "Can Claim", index = 1 }
+    },
+    tunables = {
+        robbery_slot1_type = 1152433341,
+        robbery_slot2_type = 852564222,
+        robbery_slot3_type = 552662330,
+        vehicle_slot1_type = -1012732012,
+        vehicle_slot1_value = -1699398139,
+        vehicle_slot1_cankeep = -1700733442,
+        vehicle_slot2_type = 1366330161,
+        vehicle_slot2_value = -1997104504,
+        vehicle_slot2_cankeep = -1547046832,
+        vehicle_slot3_type = 1806057372,
+        vehicle_slot3_value = -1704051341,
+        vehicle_slot3_cankeep = 1830093543,
+        cooldown_weekly = "SALV23_VEH_ROBBERY_WEEK_ID"
+    },
+    salvage_missions = {
+        { script = "fm_content_vehrob_cargo_ship", step1 = 7185 + 1, step2 = 7330 + 1249 },
+        { script = "fm_content_vehrob_police", step1 = 9011 + 1, step2 = 9144 + 1305 },
+        { script = "fm_content_vehrob_arena", step1 = 7912 + 1, step2 = 8032 + 1314 },
+        { script = "fm_content_vehrob_casino_prize", step1 = 9191 + 1, step2 = 9328 + 1258 },
+        { script = "fm_content_vehrob_submarine", step1 = 6218 + 1, step2 = 6356 + 1159 },
+    },
+}
+
+local slot_names = { "Slot 1", "Slot 2", "Slot 3" }
+local slot1 = {
+    robbery_index = 0,
+    vehicle_index = 0,
+    mod_index = 0,
+    keep_index = 0
+}
+local slot2 = {
+    robbery_index = 0,
+    vehicle_index = 0,
+    mod_index = 0,
+    keep_index = 0
+}
+local slot3 = {
+    robbery_index = 0,
+    vehicle_index = 0,
+    mod_index = 0,
+    keep_index = 0
+}
+
+local robbery_names = {}
+for _, robbery in ipairs(SalvageYard.robberies) do
+    table.insert(robbery_names, robbery.name)
+end
+
+local vehicle_names = {}
+for _, vehicle in ipairs(SalvageYard.vehicles) do
+    table.insert(vehicle_names, vehicle.name)
+end
+
+local mod_names = {}
+for _, mod in ipairs(SalvageYard.modifications) do
+    table.insert(mod_names, mod.name)
+end
+
+local keep_names = {}
+for _, keep in ipairs(SalvageYard.keeps) do
+    table.insert(keep_names, keep.name)
+end
+local ssIndex = 0
+SN_Salvage:add_imgui(function()
+    local nIndex, changed = ImGui.Combo("##Slot", ssIndex, slot_names, #slot_names)
+    if changed then
+        ssIndex = nIndex
+    end
+    local currSlot = ssIndex + 1
+    local slots = {slot1, slot2, slot3}
+    local slot = slots[currSlot]
+
+    local nIndex, changed = ImGui.Combo("Robbery", slot.robbery_index, robbery_names, #robbery_names)
+    if changed then
+        slot.robbery_index = nIndex
+        gui.show_message("Salvage Yard", "Selected " .. slot_names[ssIndex + 1] .. " robbery: " .. robbery_names[slot.robbery_index + 1])
+    end
+
+    nIndex, changed = ImGui.Combo("Vehicle", slot.vehicle_index, vehicle_names, #vehicle_names)
+    if changed then
+        slot.vehicle_index = nIndex
+        gui.show_message("Salvage Yard", "Selected " .. slot_names[ssIndex + 1] .. " vehicle: " .. vehicle_names[slot.vehicle_index + 1])
+    end
+
+    nIndex, changed = ImGui.Combo("Modification", slot.mod_index, mod_names, #mod_names)
+    if changed then
+        slot.mod_index = nIndex
+        gui.show_message("Salvage Yard", "Selected " .. slot_names[ssIndex + 1] .. " modification: " .. mod_names[slot.mod_index + 1])
+    end
+
+    nIndex, changed = ImGui.Combo("Status", slot.keep_index, keep_names, #keep_names)
+    if changed then
+        slot.keep_index = nIndex
+        gui.show_message("Salvage Yard", "Selected " .. slot_names[ssIndex + 1] .. " status: " .. keep_names[slot.keep_index + 1])
+    end
+
+    if ImGui.Button("Apply Changes") then
+        local robbery = SalvageYard.robberies[slot.robbery_index + 1].index
+        local vehicle = SalvageYard.vehicles[slot.vehicle_index + 1].index
+        local mod = SalvageYard.modifications[slot.mod_index + 1].index
+        local keep = SalvageYard.keeps[slot.keep_index + 1].index
+        tunables.set_int(SalvageYard.tunables["robbery_slot" .. currSlot .. "_type"], robbery)
+        tunables.set_int(SalvageYard.tunables["vehicle_slot" .. currSlot .. "_type"], vehicle + mod * 100)
+        tunables.set_int(SalvageYard.tunables["vehicle_slot" .. currSlot .. "_cankeep"], keep)
+        locals.set_int("vehrob_planning", SYRl1, 2)
+        gui.show_message("Salvage Yard", slot_names[ssIndex + 1] .. " changes should've been applied")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Make Available") then
+        stats.set_int(MPX() .. "SALV23_VEHROB_STATUS" .. (currSlot - 1), 0)
+        locals.set_int("vehrob_planning", SYRl1, 2)
+        gui.show_message("Salvage Yard", slot_names[ssIndex + 1] .. " should've been made Available")
+    end
+end)
+
+SN_Salvage:add_text("")
+SN_Salvage:add_text("Preps")
+SN_Salvage:add_separator()
+SN_Salvage:add_button("Complete Preps", function()
+    stats.set_int(MPX() .. "SALV23_GEN_BS", -1)
+    stats.set_int(MPX() .. "SALV23_SCOPE_BS", -1)
+    stats.set_int(MPX() .. "SALV23_FM_PROG", -1)
+    stats.set_int(MPX() .. "SALV23_INST_PROG", -1)
+    locals.set_int("vehrob_planning", SYRl1, 2)
+    gui.show_message("Salvage Yard", "Preps should've been completed")
+end)
+SN_Salvage:add_sameline()   
+SN_Salvage:add_button("Reset Preps", function()
+    stats.set_int(MPX() .. "SALV23_GEN_BS", 0)
+    stats.set_int(MPX() .. "SALV23_SCOPE_BS", 0)
+    stats.set_int(MPX() .. "SALV23_FM_PROG", 0)
+    stats.set_int(MPX() .. "SALV23_INST_PROG", 0)
+    locals.set_int("vehrob_planning", SYRl1, 2)
+    gui.show_message("Salvage Yard", "Preps should've been reset")
+end)
+SN_Salvage:add_button("Reload Screen", function()
+    locals.set_int("vehrob_planning", SYRl1, 2)
+    gui.show_message("Salvage Yard", "Screen should've been reloaded")
+end)
+SN_Salvage:add_button("Skip Weekly Cooldown", function()
+    tunables.set_int(SalvageYard.tunables.cooldown_weekly, stats.get_int(MPX() .. "SALV23_WEEK_SYNC") + 1)
+    locals.set_int("vehrob_planning", SYRl1, 2)
+    gui.show_message("Salvage Yard", "Cooldown should've been skipped")
+end)
+
+SN_Salvage:add_separator()
+SN_Salvage:add_text("Payout")
+sell_value_slot1 = SN_Salvage:add_input_int("Sell Value Slot 1")
+sell_value_slot1:set_value(0)
+sell_value_slot2 = SN_Salvage:add_input_int("Sell Value Slot 2")
+sell_value_slot2:set_value(0)
+sell_value_slot3 = SN_Salvage:add_input_int("Sell Value Slot 3")
+sell_value_slot3:set_value(0)
+SN_Salvage:add_button("Apply Sell Values", function()
+    tunables.set_int(SalvageYard.tunables.vehicle_slot1_value, sell_value_slot1:get_value())
+    tunables.set_int(SalvageYard.tunables.vehicle_slot2_value, sell_value_slot2:get_value())
+    tunables.set_int(SalvageYard.tunables.vehicle_slot3_value, sell_value_slot3:get_value())
+    locals.set_int("vehrob_planning", SYRl1, 2)
+    gui.show_message("Salvage Yard", "Sell values should've been applied")
+end)
+
+SN_Salvage:add_text("")
+SN_Salvage:add_text("Misc")
+SN_Salvage:add_separator()
+SN_Salvage:add_button("Instant Finish", function()    
+    for _, mission in ipairs(SalvageYard.salvage_missions) do
+        local value = locals.get_int(mission.script, mission.step1)
+        locals.set_int(mission.script, mission.step1, value | (1 << 11))
+        locals.set_int(mission.script, mission.step2, 2)
+    end
+	gui.show_message("Salvage Yard", "Heist should've been finished")
+end)
+SN_Salvage:add_sameline()
+SN_Salvage:add_button("Instant Sell", function()
+    local player_ped = PLAYER.PLAYER_PED_ID()
+    PED.SET_PED_COORDS_KEEP_VEHICLE(player_ped, 1169.0, -2976.0, 6.0)
+	gui.show_message("Salvage Yard", "Sell mission should've been finished")
+end)
+SN_Salvage:add_sameline()
+SN_Salvage:add_button("Skip Cutscene", SkipCutscene)
+
+
+-- Cluckin Bell --
+local cluckperps = {
+	{ id = 0 , name = "Slush Fund"},
+	{ id = 1 , name = "Breaking and Entering"},
+	{ id = 3 , name = "Concealed Rewards"},
+	{ id = 7 , name = "Hit And Run"},
+	{ id = 15, name = "Disorganized Crime"},
+	{ id = 31, name = "Scene of Crime"}
+}
+
+local SN_Cluck = SN_Flash_Ops:add_tab("Cluckin Bell Heist ")
+
+SN_Cluck:add_text("Complete Preps")
+
+for _,cluckprep in ipairs(cluckperps) do
+	SN_Cluck:add_button(cluckprep.name,
+	function ()
+		stats.set_int(MPX() .. "SALV23_INST_PROG", cluckprep.id)
+	end)
+	SN_Cluck:add_sameline()
+end
+SN_Cluck:add_separator()
+SN_Cluck:add_text("Reset preps")
+SN_Cluck:add_button("Reset Preps",
+function ()
+	stats.set_int(MPX() .. "SALV23_INST_PROG", 0)
+end)
+
 -- Money Tool --
 
 local SN_BusinessT = Silent:add_tab("Business Tab ")
